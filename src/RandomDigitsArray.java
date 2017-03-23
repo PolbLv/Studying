@@ -3,12 +3,11 @@ import java.util.Random;
 /**
  * Created by Serhiy on 3/20/17.
  */
-public class RandomDigits {
+public class RandomDigitsArray {
     public static void main(String args[]) {
-        populateArray(30, 5);
+        populateArray(10, 55);
 
     }
-
 
     public static int[] populateArray(int size, int maxRandomNumber) {
         int [] array = new int[size];
