@@ -5,7 +5,7 @@ public class PopulateArraySumAllDoubleArray {
     public static void main (String args[]){
 
         int[] array = populateArray(10, 500);
-        sumAllElementsAndDoubleDigits(array);
+        calculateSumsOfAllElements(array);
 
     }
     public static int[] populateArray(int size, int maxRandomNumber) {
@@ -17,15 +17,15 @@ public class PopulateArraySumAllDoubleArray {
         return array;
     }
 
-    public static void sumAllElementsAndDoubleDigits(int [] array) {
+    public static void calculateSumsOfAllElements(int [] array) {
         int sum1 = 0;
         int sum2 = 0;
         for (int  i = 0; i < array.length; i++) {
                 sum1   = sum1 + array[i];
-                sum2  = sum2 + (int) Math.pow(i,2);
+                sum2  = sum2 + (int) Math.pow(array[i],2);
 
         }
-        System.out.println( " = " + sum1 + " = " + sum2 );
+        System.out.println( " Sum1 = " + sum1 + " Sum2 = " + sum2 );
     }
 }
 
