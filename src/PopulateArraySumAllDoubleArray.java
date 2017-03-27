@@ -1,0 +1,33 @@
+/**
+ * Created by LVIVSOFT\spolyakov on 27.03.17.
+ */
+public class PopulateArraySumAllDoubleArray {
+    public static void main (String args[]){
+
+        int[] array = populateArray(10, 500);
+        sumAllElementsAndDoubleDigits(array);
+
+    }
+    public static int[] populateArray(int size, int maxRandomNumber) {
+        int[] array = new int[size];
+        for (int i = 0; i < size; i++) {
+            array[i] = (int) (Math.random() * (maxRandomNumber + 1));
+
+        }
+        return array;
+    }
+
+    public static void sumAllElementsAndDoubleDigits(int [] array) {
+        int sum1 = 0;
+        int sum2 = 0;
+        for (int  i = 0; i < array.length; i++) {
+                sum1   = sum1 + array[i];
+                sum2  = sum2 + (int) Math.pow(i,2);
+
+        }
+        System.out.println( " = " + sum1 + " = " + sum2 );
+    }
+}
+
+/* Используя метод populateArray создать массив чисел от 0 до 500,
+вывести на экран сумму всех элементов массива, а также сумму квадратов всех элементов массива*/
