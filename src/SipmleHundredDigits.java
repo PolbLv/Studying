@@ -3,17 +3,17 @@
  */
 public class SipmleHundredDigits {
     public static void main(String args[]) {
-        fivehundredsimpledigits(1000);
+        printSimpleDigitsToHundred(1000);
 
     }
 
-    public static void fivehundredsimpledigits(int y) {
+    public static void printSimpleDigitsToHundred(int y) {
         int sum = 0;
         int x=2;
         int counter = 0;
         while (counter < y) {
             if (simple(x)) {
-                sum = sum+ x;
+                sum = sum + x;
                 System.out.println("Sum " + sum);
                 counter++;
             }
