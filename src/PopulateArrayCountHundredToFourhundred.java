@@ -23,9 +23,9 @@ public class PopulateArrayCountHundredToFourhundred {
         for (int  i = 0; i < array.length; i++)
             if (array[i] % 2 == 0 && array[i] >= x && array[i] <= y) {
                 counter++;
-                System.out.println(array[i]);
+                System.out.println(array[i]); // выводит четные числа
         }
-        System.out.println(counter);
+        System.out.println(counter); // считает количество четных чисел
     }
 }
 /*Используя метод populateArray создать массив чисел от 0 до 500,
