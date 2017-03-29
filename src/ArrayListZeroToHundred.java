@@ -21,7 +21,7 @@ public class ArrayListZeroToHundred {
             myList.add(i);
         }
 
-        for (int j = 1; j <= myList.size(); j++) {
+        for (int j = 1; j <= myList.size()-1; j++) {
             System.out.println((myList.get(j)));
         }
     }
