@@ -2,37 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5da2dff7-c26b-41b4-900e-71080a12f764" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Tasks_for_loops2017_03_30/Test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Tasks_for_loops2017_03_30/ZeroToHundred.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ZeroToHundred.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/New/Afteronethousandsimpledigits.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/New/AlldigigtsArray.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/New/Doubletotenthousand.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/New/Fivehundredsimpledigits.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/New/Forhundredtozero.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/New/Ninemarchfifthtask.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/New/Ninemarchfirsttask.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/New/Ninemarchsecondtask.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/New/Ninemarchsixthtask.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/New/Ninemarchthirdtask.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/New/Notcount.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/New/Notcountdigtszerototwohundred.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/New/Notoddnumber.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/New/PopulateArraycountdigits.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/New/RandomDigitsArray.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/New/Randomclasses.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/New/Sin.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/New/Sumdoubletohundred.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/New/Sumtothousand.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/New/Sumxtoy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/New/Whilezerototwohundred.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/New/Zerotohundred.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/New/Zerotothousand.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/New/Zerotox.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/New/twentyfivedigits.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/New/whiletwohundredtozero.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/New/whilezerotohundred.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -149,11 +118,9 @@
       <file leaf-file-name="ZeroToHundred.class" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/out/production/New/Tasks_for_loops2017_03_30/ZeroToHundred.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#633#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="36">
+              <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -313,54 +280,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Tasks_for_loops2017_03_30" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Studying" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Studying" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="out" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="production" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="New" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tasks_for_loops2017_03_30" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Studying" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Studying" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="out" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="production" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="New" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -890,7 +809,14 @@
       <option name="project" value="LOCAL" />
       <updated>1490880510164</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Update">
+      <created>1490882542143</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1490882542143</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1133,6 +1059,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1147,6 +1074,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1295,11 +1223,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/out/production/New/Tasks_for_loops2017_03_30/ZeroToHundred.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#633#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="36">
+          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
