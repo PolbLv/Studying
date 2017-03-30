@@ -5,7 +5,7 @@ package Old;
  */
 public class Fivehundredsimpledigits {
     public static void main(String args[]) {
-        fivehundredsimpledigits(0, 500);
+        fivehundredsimpledigits(500, 50);
 
     }
 

@@ -5,7 +5,9 @@ package Old;
  */
 public class Ninemarchfifthtask {
     public static void main(String args[]) {
+
         sumzeroTohundred(100);
+
     }
 
     public static void sumzeroTohundred(int x) {
