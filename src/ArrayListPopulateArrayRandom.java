@@ -15,7 +15,6 @@ public class ArrayListPopulateArrayRandom {
     public static ArrayList<Integer> populateList(int size, int limit) {
         ArrayList<Integer> random = new ArrayList<>(100);
 
-
         for (int i = 0; i < size; i++) {
             random.add((int) (Math.random() * (limit + 1)));
 
