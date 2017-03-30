@@ -19,7 +19,7 @@ public class ArrayListPopulateArrayRandom {
         for (int i = 0; i < size; i++) {
             random.add((int) (Math.random() * (limit + 1)));
 
-            // System.out.println(random);
+
         }
         System.out.println(random);
         return random;
