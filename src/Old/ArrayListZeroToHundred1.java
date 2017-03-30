@@ -26,7 +26,7 @@ public class ArrayListZeroToHundred1 {
 /*СОздать список со значениями от 0 до 100.
  Создать метод выводящий все значения списка на экран.*/
 
-
-
+/*перший обгортаєш у метод з return type ArrayList<Integer>
+дргий приймає (ArrayList<Integer> list) і видруковує його*/
 
 
