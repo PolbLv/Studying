@@ -13,7 +13,7 @@ public class ArrayListPopulateArrayRandom {
     }
 
     public static ArrayList<Integer> populateList(int size, int limit) {
-        ArrayList<Integer> random = new ArrayList<>(100);
+        ArrayList<Integer> random = new ArrayList<>();
 
         for (int i = 0; i < size; i++) {
             random.add((int) (Math.random() * (limit + 1)));
@@ -25,7 +25,6 @@ public class ArrayListPopulateArrayRandom {
     }
 
 }
-
 /*Создать метод с сигнатурой public static List<Integer>
 populateList(int size, int limit) который будет наполнять список случайными числами,
 схема действия такая же как и в методе
