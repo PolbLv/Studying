@@ -13,16 +13,6 @@ public class ArrayListPopulateArrayRandom {
 
     }
 
-
-    public static int[] populateArray(int size, int maxRandomNumber) {
-        int[] array = new int[size];
-        for (int i = 0; i < size; i++) {
-            array[i] = (int) (Math.random() * (maxRandomNumber + 1));
-
-        }
-        return array;
-    }
-
     public static ArrayList<Integer> populateList(int size, int limit) {
         ArrayList<Integer> random = new ArrayList<>(100);
 
