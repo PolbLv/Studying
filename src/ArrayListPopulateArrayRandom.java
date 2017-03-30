@@ -7,8 +7,7 @@ import java.util.List;
 public class ArrayListPopulateArrayRandom {
     public static void main(String args[]) {
 
-//    int[] array = populateArray(10, 500);
-        populateList(20, 300);
+        populateList(10, 300);
 
 
     }
@@ -17,7 +16,7 @@ public class ArrayListPopulateArrayRandom {
         ArrayList<Integer> random = new ArrayList<>(100);
 
 
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < size; i++) {
             random.add((int) (Math.random() * (limit + 1)));
 
             // System.out.println(random);
