@@ -15,7 +15,6 @@ public class ArrayListZeroHundred2 {
         int initialSize = 100;
         ArrayList<Integer> numbers = new ArrayList<>(initialSize);
         for (int i = 0; i < initialSize; i++)
-
         {
             numbers.add(i);
             System.out.println(numbers.get(i));
