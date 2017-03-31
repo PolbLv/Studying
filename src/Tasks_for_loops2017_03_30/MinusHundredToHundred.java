@@ -12,7 +12,7 @@ public class MinusHundredToHundred {
 
     public static void minusHundredToHundred(int min, int max) {
         for (int i = min; i < max; i++) {
-            //  System.out.println("minusHundredToHundred " + i);
+              System.out.println("minusHundredToHundred " + i);
         }
     }
 
