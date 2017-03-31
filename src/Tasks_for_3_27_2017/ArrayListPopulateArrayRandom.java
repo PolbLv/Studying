@@ -1,5 +1,7 @@
 package Tasks_for_3_27_2017;
+
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by Serhiy on 3/29/17.
@@ -7,16 +9,18 @@ import java.util.ArrayList;
 public class ArrayListPopulateArrayRandom {
     public static void main(String args[]) {
 
-        populateList(15, 300);
+        populateList(7, 30);
 
 
     }
 
-    public static ArrayList<Integer> populateList(int size, int limit) {
-        ArrayList<Integer> random = new ArrayList<>();
+    public static List<Integer> populateList(int size, int limit) {
+        List<Integer> random = new ArrayList<>();
 
 
         for (int i = 0; i < size; i++) {
+
+
             random.add((int) (Math.random() * (limit + 1)));
 
 

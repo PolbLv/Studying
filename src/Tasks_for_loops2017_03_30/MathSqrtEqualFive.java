@@ -22,11 +22,11 @@ public class MathSqrtEqualFive {
 
     public static void thirtyToSeventy (int min, int max){
         for (int i = min; i <= max; i++){
-            if ( i % 2 == 0 && Math.pow(i,2) % 2 == 0){
+            if (i % 2 == 0)
                System.out.println("i = " + i + " Math.pow " + Math.pow(i,2));
             }
         }
     }
-}
+
 /* вывести все числа от -500 до 300 для которых квадратные корни кратны пяти,
 вывести квадраты четных числа от 30 до 70*/
