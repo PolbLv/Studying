@@ -15,7 +15,7 @@ public class MathSqrtEqualFive {
     public static void minusFiveHundredToThreeHundred(int min, int max) {
         for (int i = min; i <= max; i++) {
             if (Math.sqrt(i) % 5 == 0) {
-                //System.out.println("i = " + i + "   Math.sqrt =  " + Math.sqrt(i));
+                System.out.println("i = " + i + "   Math.sqrt =  " + Math.sqrt(i));
             }
         }
     }
