@@ -6,14 +6,14 @@ import java.util.ArrayList;
  */
 public class ArrayListPopulateArrayRandom {
     public static void main(String args[]) {
-        
-        populateList(20, 300);
+
+        populateList(15, 300);
 
 
     }
 
     public static ArrayList<Integer> populateList(int size, int limit) {
-        ArrayList<Integer> random = new ArrayList<>(100);
+        ArrayList<Integer> random = new ArrayList<>();
 
 
         for (int i = 0; i < size; i++) {
