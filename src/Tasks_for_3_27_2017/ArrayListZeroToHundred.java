@@ -1,8 +1,8 @@
-package Old;
+package Tasks_for_3_27_2017;
 
 import java.util.ArrayList;
 
-public class ArrayListZeroToHundred1 {
+public class ArrayListZeroToHundred {
     public static void main(String args[]) {
         ArrayList<Integer> myList = new ArrayList<>();
         for ( int i = 0 ; i < 100; i++) {
