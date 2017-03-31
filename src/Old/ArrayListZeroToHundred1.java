@@ -5,8 +5,7 @@ import java.util.ArrayList;
 public class ArrayListZeroToHundred1 {
     public static void main(String args[]) {
         ArrayList<Integer> myList = new ArrayList<>();
-        int i = 0;
-        for ( i = 0; i < 100; i++) {
+        for ( int i = 0 ; i < 100; i++) {
             myList.add(i);
         }
         zeroToHundred(myList);

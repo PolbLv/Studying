@@ -12,22 +12,16 @@ public class MinusHundredToHundred {
 
     public static void minusHundredToHundred(int min, int max) {
         for (int i = min; i < max; i++) {
-            System.out.println("minusHundredToHundred " + i);
+            //  System.out.println("minusHundredToHundred " + i);
         }
     }
 
     public static void thousandToZeroMathSqrt(int min, int max) {
         for (int i = max; i >= min; --i) {
-            double pi = i + Math.sqrt(i);
-                System.out.println("i" + " = " + i + " res" + " = " + pi); {
-
-            }
-
+            System.out.println("i = " + i + " res = " + Math.sqrt(i));
         }
     }
 }
-
-
 
 /*Написать программу выводящую на экран числа от -100 до 100,
 затем вывести квадратные корни чисел в диапазоне от 1000 до 0*/

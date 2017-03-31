@@ -19,6 +19,7 @@ public class MathSqrtEqualFive {
             }
         }
     }
+
     public static void thirtyToSeventy (int min, int max){
         for (int i = min; i <= max; i++){
             if (Math.pow(i,2) % 2 == 0){
