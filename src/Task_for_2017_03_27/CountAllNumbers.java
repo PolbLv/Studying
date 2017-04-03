@@ -5,6 +5,7 @@ package Task_for_2017_03_27;
  */
 public class CountAllNumbers {
     public static void main(String args []){
+
         numbers(4567);
     }
     public static void numbers(int x){
