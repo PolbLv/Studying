@@ -13,15 +13,11 @@ public class PopulateListCountDigitsInTheList {
 
     public static void populateList(int max) {
         ArrayList<Integer> random = new ArrayList<>();
-        int i;
-        for ( i = 0; i < max; i++) {
+
+        for ( int i = 0; i < max; i++) {
        //     if ( i % 2 == 0) {
             random.add((int) (Math.random() * (max + 1)));
-
-
-
             }
-
          //   return random;
         }
       //  System.out.println(random);
