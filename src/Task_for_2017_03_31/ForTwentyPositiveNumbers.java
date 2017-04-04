@@ -15,9 +15,12 @@ public class ForTwentyPositiveNumbers {
         for (int i = 0; i < Integer.MAX_VALUE; i++) {
             if (Math.sqrt(i) % 1 == 0 && simple((int) (Math.sqrt(i)) - 3)){
                 k++;
-                if (k > size)
-                     break;
-                 System.out.println(i);}
+                if (k > size) {
+                    break;
+                }
+                 System.out.println(i);
+            }
+
         }
     }
 
