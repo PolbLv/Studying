@@ -9,11 +9,13 @@ public class SumFirstAndLastNumber {
 
     public static int sumNumbers(int x) {
         String number = String.valueOf(x);
+        int first = x / 1000;
+        int last = x % 10;
+        int result = first + last;
         for (int i = 0; i < number.length(); i++) {
-            int first = x / 1000;
-            int last = x % 10;
-            System.out.println("digit: " +  (last+first));
+
         }
+        System.out.println(result);
         return x;
     }
 }
