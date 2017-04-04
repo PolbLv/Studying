@@ -1,22 +1,22 @@
 package Task_for_2017_03_31;
 
-/*
 
 public class SumFirstAndLastNumber {
-    public static void main(String args []){
+    public static void main(String args[]) {
 
         sumNumbers(1775);
     }
-    public static int sumNumbers(int x){
-            int f = x % 10;
-            int i = 0;
-        for (( i > 0) && (i < x.size() )){
-            fdig = n/10>
-            System.out.println(x);
-            return f + l;
+
+    public static int sumNumbers(int x) {
+        String number = String.valueOf(x);
+        for (int i = 0; i < number.length(); i++) {
+            int j = Character.digit(number.charAt(Integer), 10);
+            System.out.println("digit: " + j);
         }
+        return x;
     }
-} */
+}
+
 
 /*Написать метод суммирующий первую и последнюю цифру в числе . Например на вход подано число:
 4561 на выходе 5
