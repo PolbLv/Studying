@@ -27,8 +27,3 @@ public class SumFirstAndLastNumber {
 58845415423 на выходе 8
 */
 
-
-/*array.get(i)
-і медод, який повертатиме тобі сайз аррею
-і сумуєш array.get(0)+array.get(array.size()-1)
-size() чи length()*/
