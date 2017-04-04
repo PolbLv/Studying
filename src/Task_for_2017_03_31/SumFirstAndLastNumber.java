@@ -4,17 +4,14 @@ package Task_for_2017_03_31;
 public class SumFirstAndLastNumber {
     public static void main(String args[]) {
 
-        sumNumbers(4561);
+        sumNumbers(588454154);
     }
 
     public static int sumNumbers(int x) {
-        String number = String.valueOf(x);
-        int first = x / 1000;
+        int first = x / 100000000;
         int last = x % 10;
         int result = first + last;
-        for (int i = 0; i < number.length(); i++) {
 
-        }
         System.out.println(result);
         return x;
     }
@@ -24,6 +21,6 @@ public class SumFirstAndLastNumber {
 /*Написать метод суммирующий первую и последнюю цифру в числе . Например на вход подано число:
 4561 на выходе 5
 379 на выходе 10
-58845415423 на выходе 8
+5884541542 на выходе 8
 */
 

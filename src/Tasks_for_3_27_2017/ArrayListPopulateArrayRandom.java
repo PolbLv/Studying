@@ -11,7 +11,6 @@ public class ArrayListPopulateArrayRandom {
 
         populateList(7, 30);
 
-
     }
 
     public static List<Integer> populateList(int size, int limit) {
