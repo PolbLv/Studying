@@ -5,12 +5,12 @@ import java.util.Random;
 /**
  * Created by Serhiy on 2/22/17.
  */
-public class Randomclasses {
+public class RandomClasses {
     public static void main (String arg[]){
 
-        randomclass(100);
+        randomClass(100);
     }
-    public static void randomclass(int x) {
+    public static void randomClass(int x) {
         int counter = 0;
         Random random = new Random();
         for (int i = 0; i <= x; i++) {

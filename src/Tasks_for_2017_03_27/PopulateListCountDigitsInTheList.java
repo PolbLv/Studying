@@ -1,6 +1,7 @@
 package Tasks_for_2017_03_27;
 
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by LVIVSOFT\spolyakov on 31.03.17.
@@ -8,24 +9,29 @@ import java.util.ArrayList;
 public class PopulateListCountDigitsInTheList {
     public static void main(String args[]) {
 
-        populateList(14);
+        populateList(500);
     }
 
-    public static void populateList(int max) {
-        ArrayList<Integer> random = new ArrayList<>();
-        int i;
-        for ( i = 0; i < max; i++) {
-       //     if ( i % 2 == 0) {
-            random.add((int) (Math.random() * (max + 1)));
+    public static List<Integer> populateList(int limit) {
+        //int counter = 0;
+        List<Integer> random = new ArrayList<>();
+        for (int i = 0; i < limit; i++) {
 
+            random.add((int) (Math.random() * (limit + 1)));
+            if (i % 2 == 0)
+                // counter++;
 
-
+                    System.out.println (random);
             }
-
-         //   return random;
+            //System.out.println(counter);
+        return random;
         }
-      //  System.out.println(random);
+
     }
+
+
+
+
 
 
 /*Используя метод populateList создать список случайных чисел от 0 до 500,
