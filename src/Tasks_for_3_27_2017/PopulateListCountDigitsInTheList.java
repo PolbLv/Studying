@@ -18,7 +18,7 @@ public class PopulateListCountDigitsInTheList {
         for (int i = 0; i < limit; i++) {
 
             random.add((int) (Math.random() * (limit + 1)));
-            if (int % 2 == 0)
+            if (i % 2 == 0)
                 // counter++;
 
                     System.out.println (random);
