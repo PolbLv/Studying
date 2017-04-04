@@ -1,27 +1,21 @@
 package Task_for_2017_03_31;
 
-import java.util.ArrayList;
-
 /**
  * Created by LVIVSOFT\spolyakov on 04.04.17.
  */
-public class TwentyPositiveNumbers {
+public class WhileTwentyPositiveNumbers {
     public static void main(String args[]) {
-        twentyNumbers();
+        twentyNumbers(0, 20);
 
     }
-
-    public static void twentyNumbers() {
-        int size = 20,
-                k = 0;
-        ArrayList<Integer> numbers = new ArrayList<>(size);
-        for (int i = 0; i < Integer.MAX_VALUE; i++) {
-            numbers.add(i);
-            if (Math.sqrt(i) % 1 == 0 && simple((int) (Math.sqrt(i)) - 3)){
-                k++;
-                if (k > size)
-                     break;
-                 System.out.println(i);}
+    public static void twentyNumbers(int x, int y) {
+        int counter = 0;
+        while (counter < y){
+            if (Math.sqrt(x) % 1 == 0 && simple((int) (Math.sqrt(x)) - 3)) {
+                System.out.println(x);
+                counter++;
+            }
+            x++;
         }
     }
 
@@ -59,3 +53,4 @@ public class TwentyPositiveNumbers {
 1936
 2116
 2500*/
+
