@@ -12,24 +12,28 @@ public class TwentyPositiveNumbers {
     }
 
     public static void twentyNumbers() {
-        int initialSize = 3000;
-        int x = 0;
-        ArrayList<Integer> numbers = new ArrayList<>(initialSize);
-        for (int i = 0; i < initialSize; i++) {
+        int size = 20,
+                k = 0;
+        ArrayList<Integer> numbers = new ArrayList<>(size);
+        for (int i = 0; i < Integer.MAX_VALUE; i++) {
             numbers.add(i);
-            if (  Math.sqrt(i) % 1 == 0 && simple((int) (Math.sqrt(i)) - 3))
-                System.out.println(i);
+            if (Math.sqrt(i) % 1 == 0 && simple((int) (Math.sqrt(i)) - 3)){
+                k++;
+                if (k > size)
+                     break;
+                 System.out.println(i);}
         }
     }
-        public static boolean simple(int num) {
-            for (int x = 2; x < num; x++) {
-                if (num % x == 0) {
-                    return false;
-                }
+
+    public static boolean simple(int num) {
+        for (int x = 2; x < num; x++) {
+            if (num % x == 0) {
+                return false;
             }
-            return true;
         }
+        return true;
     }
+}
 
 
 /*Вывести 20 положительных чисел из последовательности для которой верны следующие условия:
