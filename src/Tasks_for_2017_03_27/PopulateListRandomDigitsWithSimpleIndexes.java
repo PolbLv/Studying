@@ -14,11 +14,8 @@ public class PopulateListRandomDigitsWithSimpleIndexes {
             if (isSimple(i)) {
                 System.out.println(myList.get(i));
             }
-
         }
-
     }
-
     public static ArrayList<Integer> populateList(int size, int limit) {
         ArrayList<Integer> myList = new ArrayList<>();
         for (int i = 0; i < size; i++) {
@@ -26,7 +23,6 @@ public class PopulateListRandomDigitsWithSimpleIndexes {
         }
         return myList;
     }
-
     public static boolean isSimple(int num) {
         if (num == 0) {
             return false;
@@ -38,7 +34,6 @@ public class PopulateListRandomDigitsWithSimpleIndexes {
         }
         return true;
     }
-
 }
 /* Используя метод populateList создать список случайных чисел от 0 до 500,
 вывести на экран числа из списка у которых индексы в списке являются простым числом*/
