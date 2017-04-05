@@ -2,45 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5da2dff7-c26b-41b4-900e-71080a12f764" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Old/Afteronethousandsimpledigits.java" afterPath="$PROJECT_DIR$/src/Old/AfterOneThousandSimpleDigits.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Old/AlldigigtsArray.java" afterPath="$PROJECT_DIR$/src/Old/AllDigitsArray.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Old/Doubletotenthousand.java" afterPath="$PROJECT_DIR$/src/Old/DoubleToTenThousand.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Old/Fivehundredsimpledigits.java" afterPath="$PROJECT_DIR$/src/Old/FiveHundredSimpleDigits.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Old/Forhundredtozero.java" afterPath="$PROJECT_DIR$/src/Old/ForHundredToZero.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Old/Ninemarchfifthtask.java" afterPath="$PROJECT_DIR$/src/Old/SumZeroToHundred.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Old/Ninemarchfirsttask.java" afterPath="$PROJECT_DIR$/src/Old/DoubleToHundred.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Old/Ninemarchsecondtask.java" afterPath="$PROJECT_DIR$/src/Old/CounterOfDigits.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Old/Ninemarchsixthtask.java" afterPath="$PROJECT_DIR$/src/Old/ZeroToHundredWithoutLastBoard.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Old/Ninemarchthirdtask.java" afterPath="$PROJECT_DIR$/src/Old/IsSimpleDigitOrNot.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Old/Notcount.java" afterPath="$PROJECT_DIR$/src/Old/ZeroToHundredNotCount.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Old/Notcountdigtszerototwohundred.java" afterPath="$PROJECT_DIR$/src/Old/NotCountDigtsZeroToTwoHundred.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Old/Notoddnumber.java" afterPath="$PROJECT_DIR$/src/Old/CountDoubleAndNotOddNumbers.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Old/RandomClasses.java" afterPath="$PROJECT_DIR$/src/Old/CountRandomClasses.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Old/RandomDigitsArray.java" afterPath="$PROJECT_DIR$/src/Old/RandomDigitsPopulateArray.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Old/Sumdoubletohundred.java" afterPath="$PROJECT_DIR$/src/Old/SumDoubleToHundred.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Old/Sumtothousand.java" afterPath="$PROJECT_DIR$/src/Old/SumToThousand.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Old/Sumxtoy.java" afterPath="$PROJECT_DIR$/src/Old/SumXToY.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Old/Whilezerototwohundred.java" afterPath="$PROJECT_DIR$/src/Old/WhileZeroToTwoHundred.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Old/Zerotohundred.java" afterPath="$PROJECT_DIR$/src/Old/ZeroToHundred.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Old/Zerotothousand.java" afterPath="$PROJECT_DIR$/src/Old/ZeroToThousandIfDigitEqualFiveAndThree.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Old/Zerotox.java" afterPath="$PROJECT_DIR$/src/Old/VariantsZeroToX.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Old/twentyfivedigits.java" afterPath="$PROJECT_DIR$/src/Old/TwentyFiveDigits.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Old/whiletwohundredtozero.java" afterPath="$PROJECT_DIR$/src/Old/whileTwoHundredToZero.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Old/whilezerotohundred.java" afterPath="$PROJECT_DIR$/src/Old/WhileZeroToHundred.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Task_for_2017_03_31/ForTwentyPositiveNumbers.java" afterPath="$PROJECT_DIR$/src/Task_for_2017_03_31/ForTwentyPositiveNumbersAndSimple.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Task_for_2017_03_31/WhileTwentyPositiveNumbers.java" afterPath="$PROJECT_DIR$/src/Task_for_2017_03_31/WhileTwentyPositiveNumbersAndSimple.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Old/PopulateArrayCountHundredToFourhundred.java" afterPath="$PROJECT_DIR$/src/Old/PopulateArrayCountHundredToFourhundred.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Old/PopulateArraySumAllDoubleArray.java" afterPath="$PROJECT_DIR$/src/Old/PopulateArraySumAllDoubleArray.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Old/PopulateArraycountdigits.java" afterPath="$PROJECT_DIR$/src/Old/PopulateArraycountdigits.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Old/PopulateArraysimpledigits.java" afterPath="$PROJECT_DIR$/src/Old/PopulateArraysimpledigits.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Old/SetExample.java" afterPath="$PROJECT_DIR$/src/Old/SetExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Old/Sin.java" afterPath="$PROJECT_DIR$/src/Old/Sin.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Old/SipmleHundredDigits.java" afterPath="$PROJECT_DIR$/src/Old/SipmleHundredDigits.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Old/Visibility.java" afterPath="$PROJECT_DIR$/src/Old/Visibility.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Task_for_2017_03_31/CountAllNumbers.java" afterPath="$PROJECT_DIR$/src/Task_for_2017_03_31/CountAllNumbers.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Tasks_for_2017_03_27/PopulateArrayRandomAndSimpleDigits.java" afterPath="$PROJECT_DIR$/src/Tasks_for_2017_03_27/PopulateArrayRandomAndSimpleDigits.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Tasks_for_2017_03_27/PopulateListCountDigitsInTheList.java" afterPath="$PROJECT_DIR$/src/Tasks_for_2017_03_27/PopulateListCountDigitsInTheList.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -1174,7 +1136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1491381150530</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Update">
+      <created>1491384227545</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1491384227545</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1188,7 +1157,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="48" width="1906" height="1031" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839224" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1202,7 +1171,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839224" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20667385" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20667385" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24958949" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
