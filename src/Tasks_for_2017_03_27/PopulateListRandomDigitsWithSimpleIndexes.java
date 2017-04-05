@@ -6,11 +6,11 @@ import java.util.ArrayList;
  * Created by LVIVSOFT\spolyakov on 05.04.17.
  */
 public class PopulateListRandomDigitsWithSimpleIndexes {
-    public static void main(String args[]){
+    public static void main(String args[]) {
         int counter = 0;
         ArrayList<Integer> myList = populateList(13, 500);
-        for (int i =0; i < myList.size() ; i++){
-            if(isSimple(myList.get(i))){
+        for (int i = 0; i < myList.size(); i++) {
+            if (isSimple(myList.get(i))) {
                 counter++;
             }
         }
@@ -18,7 +18,25 @@ public class PopulateListRandomDigitsWithSimpleIndexes {
         System.out.println(counter);
 
 
+
+
     }
+
+
+
+    public int getArrayIndex(int[] arr,int value) {
+
+        int k=0;
+        for(int i=0;i<arr.length;i++){
+
+            if(arr[i]==value){
+                k=i;
+                break;
+            }
+        }
+        return k;
+    }
+
     public static ArrayList<Integer> populateList( int size, int limit) {
         ArrayList<Integer> myList = new ArrayList<>();
         for (int i = 0; i < size; i++) {
