@@ -8,27 +8,27 @@ import java.util.ArrayList;
 public class PopulateArrayRandomAndSimpleDigits {
     public static void main(String args[]){
         int counter = 0;
-        ArrayList<Integer> myList = populateList();
+        ArrayList<Integer> myList = populateList(13, 500);
         for (int i =0; i < myList.size() ; i++){
             if(isSimple(myList.get(i))){
                 counter++;
             }
         }
-        //System.out.println(myList);
+        System.out.println(myList);
             System.out.println(counter);
 
 
     }
-    public static ArrayList<Integer> populateList() {
+    public static ArrayList<Integer> populateList( int size, int limit) {
         ArrayList<Integer> myList = new ArrayList<>();
-        for (int i = 0; i < 13; i++) {
-            myList.add((int) (Math.random() * (10 + 1)));
+        for (int i = 0; i < size; i++) {
+            myList.add((int) (Math.random() * (limit + 1)));
         }
         return myList;
     }
 
     public static boolean isSimple (int num) {
-        if(num==0){
+        if(num == 0 ){
             return false;
         }
         for (int x = 2; x < num; x++) {
