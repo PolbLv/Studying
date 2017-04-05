@@ -1,19 +1,18 @@
 package Old;
 
-import static java.lang.Math.*;
-
 /**
  * Created by Serhiy on 2/27/17.
  */
-public class Sumdoubletohundred {
-    public static void main (String args[]){
-        sumdoubleTohundred(100);
+public class SumDoubleToHundred {
+    public static void main(String args[]) {
+        sumDoubleToHundred(100);
     }
-    public static void sumdoubleTohundred(int x) {
+
+    public static void sumDoubleToHundred(int x) {
         int sum = 0;
         for (int i = 0; i <= x; i++) {
-            if (i % 2 != 0){
-                sum = sum + (int) Math.pow(i,2);
+            if (i % 2 != 0) {
+                sum = sum + (int) Math.pow(i, 2);
             }
         }
         System.out.println(sum);

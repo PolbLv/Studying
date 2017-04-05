@@ -3,15 +3,16 @@ package Task_for_2017_03_31;
 /**
  * Created by LVIVSOFT\spolyakov on 04.04.17.
  */
-public class WhileTwentyPositiveNumbers {
+public class WhileTwentyPositiveNumbersAndSimple {
     public static void main(String args[]) {
         twentyNumbers(0, 20);
 
     }
+
     public static void twentyNumbers(int x, int y) {
         int counter = 0;
-        while (counter < y){
-            if (Math.sqrt(x) % 1 == 0 && simple((int) (Math.sqrt(x)) - 3)) {
+        while (counter < y) {
+            if (Math.sqrt(x) % 1 == 0 && isSimple((int) (Math.sqrt(x)) - 3)) {
                 System.out.println(x);
                 counter++;
             }
@@ -19,7 +20,10 @@ public class WhileTwentyPositiveNumbers {
         }
     }
 
-    public static boolean simple(int num) {
+    public static boolean isSimple(int num) {
+        if (num == 0) {
+            return false;
+        }
         for (int x = 2; x < num; x++) {
             if (num % x == 0) {
                 return false;

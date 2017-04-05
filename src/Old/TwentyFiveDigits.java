@@ -3,13 +3,13 @@ package Old;
 /**
  * Created by Serhiy on 3/16/17.
  */
-public class twentyfivedigits {
+public class TwentyFiveDigits {
     public static void main(String args[]) {
 
-        twentyfive(0,200);
+        twentyFive(0, 200);
     }
 
-    public static void twentyfive(int x, int y) {
+    public static void twentyFive(int x, int y) {
         int counter = 0;
         while (counter <= y) {
             if (x % 25 == 0) {

@@ -1,20 +1,18 @@
 package Old;
 
-import java.util.Random;
-
 /**
  * Created by Serhiy on 3/20/17.
  */
-public class RandomDigitsArray {
+public class RandomDigitsPopulateArray {
     public static void main(String args[]) {
         populateArray(10, 55);
 
     }
 
     public static int[] populateArray(int size, int maxRandomNumber) {
-        int [] array = new int[size];
+        int[] array = new int[size];
         for (int i = 0; i < size; i++) {
-            array[i] = (int) (Math.random()* (maxRandomNumber + 1));
+            array[i] = (int) (Math.random() * (maxRandomNumber + 1));
             System.out.println(array[i]);
         }
         return array;

@@ -3,13 +3,13 @@ package Old;
 /**
  * Created by Serhiy on 3/15/17.
  */
-public class Fivehundredsimpledigits {
+public class FiveHundredSimpleDigits {
     public static void main(String args[]) {
-        fivehundredsimpledigits(500, 50);
+        fiveHundredSimpleDigits(500, 50);
 
     }
 
-    public static void fivehundredsimpledigits(int x, int y) {
+    public static void fiveHundredSimpleDigits(int x, int y) {
         int counter = 0;
         while (counter < y) {
             if (simple(x)) {
@@ -19,7 +19,11 @@ public class Fivehundredsimpledigits {
             x++;
         }
     }
+
     public static boolean simple(int num) {
+        if (num == 0) {
+            return false;
+        }
         for (int x = 2; x < num; x++) {
             if (num % x == 0) {
                 return false;

@@ -3,7 +3,7 @@ package Task_for_2017_03_31;
 /**
  * Created by LVIVSOFT\spolyakov on 04.04.17.
  */
-public class ForTwentyPositiveNumbers {
+public class ForTwentyPositiveNumbersAndSimple {
     public static void main(String args[]) {
         twentyNumbers();
 
@@ -13,14 +13,13 @@ public class ForTwentyPositiveNumbers {
         int size = 20,
                 k = 0;
         for (int i = 0; i < Integer.MAX_VALUE; i++) {
-            if (Math.sqrt(i) % 1 == 0 && simple((int) (Math.sqrt(i)) - 3)){
+            if (Math.sqrt(i) % 1 == 0 && simple((int) (Math.sqrt(i)) - 3)) {
                 k++;
                 if (k > size) {
                     break;
                 }
-                 System.out.println(i);
+                System.out.println(i);
             }
-
         }
     }
 
@@ -33,7 +32,6 @@ public class ForTwentyPositiveNumbers {
         return true;
     }
 }
-
 
 /*Вывести 20 положительных чисел из последовательности для которой верны следующие условия:
 корень числа - целое число, корень числа минус 3 - простое число

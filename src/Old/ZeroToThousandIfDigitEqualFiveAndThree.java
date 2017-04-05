@@ -3,19 +3,19 @@ package Old;
 /**
  * Created by Serhiy on 2/27/17.
  */
-public class Zerotothousand {
+public class ZeroToThousandIfDigitEqualFiveAndThree {
     public static void main(String args[]) {
-        zeroTothousand(10000);
+        zeroToThousand(10000);
     }
 
-    public static void zeroTothousand(int x) {
+    public static void zeroToThousand(int x) {
         int counter = 0;
         for (int i = 0; i <= x; i++) {
-            if (i % 2 == 0 && i % 5 == 0 && i % 3 == 0){
-                    counter++;
-                    System.out.println(i);
-                }
+            if (i % 2 == 0 && i % 5 == 0 && i % 3 == 0) {
+                counter++;
+                System.out.println(i);
             }
+        }
         System.out.println("counter = " + counter);
     }
 }

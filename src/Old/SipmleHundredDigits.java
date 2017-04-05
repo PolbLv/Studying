@@ -11,7 +11,7 @@ public class SipmleHundredDigits {
 
     public static void printSimpleDigitsToHundred(int y) {
         int sum = 0;
-        int x=2;
+        int x = 2;
         int counter = 0;
         while (counter < y) {
             if (simple(x)) {
@@ -22,6 +22,7 @@ public class SipmleHundredDigits {
             x++;
         }
     }
+
     public static boolean simple(int num) {
         for (int x = 2; x < num; x++) {
             if (num % x == 0) {
@@ -31,7 +32,6 @@ public class SipmleHundredDigits {
         return true;
     }
 }
-
 
 
 //Используя цикл вывести на консоль сумму первых 1000 простых чисел

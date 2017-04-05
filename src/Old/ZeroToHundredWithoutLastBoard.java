@@ -3,12 +3,12 @@ package Old;
 /**
  * Created by Serhiy on 3/15/17.
  */
-public class Ninemarchsixthtask {
+public class ZeroToHundredWithoutLastBoard {
     public static void main(String args[]) {
-        zerotohundred(100);
+        zeroToHundred(100);
     }
 
-    public static void zerotohundred(int x) {
+    public static void zeroToHundred(int x) {
         int counter = 0;
         int i = 0;
         while (counter <= x) {

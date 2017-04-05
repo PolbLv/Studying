@@ -14,15 +14,15 @@ public class PopulateArraycountdigits {
         int[] array = new int[size];
         for (int i = 0; i < size; i++) {
             array[i] = (int) (Math.random() * (maxRandomNumber + 1));
- //          System.out.println(array[i]);
+            //          System.out.println(array[i]);
         }
         return array;
     }
 
-    public static void countArray(int[] array ) {
-        int counter= 0;
-        for (int i = 0; i <array.length; i++) {
-            if (array[i] % 2 ==0)
+    public static void countArray(int[] array) {
+        int counter = 0;
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] % 2 == 0)
                 counter++;
         }
         System.out.println(counter);

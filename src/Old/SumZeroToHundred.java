@@ -3,17 +3,17 @@ package Old;
 /**
  * Created by Serhiy on 3/11/17.
  */
-public class Ninemarchfifthtask {
+public class SumZeroToHundred {
     public static void main(String args[]) {
 
-        sumzeroTohundred(100);
+        sumZeroToHundred(100);
 
     }
 
-    public static void sumzeroTohundred(int x) {
+    public static void sumZeroToHundred(int x) {
         for (int i = 0; i <= x; i++) {
-                double pi = i + Math.sqrt(i);
-                if ( pi % 2 == 0){
+            double pi = i + Math.sqrt(i);
+            if (pi % 2 == 0) {
                 System.out.println("i" + " = " + i + " res" + " = " + pi);
             }
         }

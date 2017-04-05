@@ -20,13 +20,13 @@ public class PopulateArrayCountHundredToFourhundred {
         return array;
     }
 
-    public static void countOddDigits(int [] array, int x, int y) {
+    public static void countOddDigits(int[] array, int x, int y) {
         int counter = 0;
-        for (int  i = 0; i < array.length; i++)
+        for (int i = 0; i < array.length; i++)
             if (array[i] % 2 == 0 && array[i] >= x && array[i] <= y) {
                 counter++;
                 System.out.println(array[i]); // выводит четные числа
-        }
+            }
         System.out.println(counter); // считает количество четных чисел
     }
 }

@@ -4,9 +4,9 @@ package Old;
  * Created by LVIVSOFT\spolyakov on 24.03.17.
  */
 public class PopulateArraysimpledigits {
-    public static void main(String arg[]){
+    public static void main(String arg[]) {
 
-        int[] array = populateArray(10, 500);
+        int[] array = populateArray(40, 500);
 
         System.out.println(countSimpleDigits(array));
     }
@@ -19,16 +19,21 @@ public class PopulateArraysimpledigits {
         }
         return array;
     }
-    public static int countSimpleDigits(int[] array){
+
+    public static int countSimpleDigits(int[] array) {
         int counter = 0;
-        for (int i = 0; i<array.length; i++)
+        for (int i = 0; i < array.length; i++)
             if (simple(array[i])) {
                 //System.out.println("i = " + array);
                 counter++;
             }
         return counter;
-        }
+    }
+
     public static boolean simple(int num) {
+        if (num == 0) {
+            return false;
+        }
         for (int x = 2; x < num; x++) {
             if (num % x == 0) {
                 return false;

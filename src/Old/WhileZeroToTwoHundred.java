@@ -3,12 +3,12 @@ package Old;
 /**
  * Created by Serhiy on 3/15/17.
  */
-public class Whilezerototwohundred {
+public class WhileZeroToTwoHundred {
     public static void main(String args[]) {
-        zerototwohundred(200);
+        zeroToTwoHundred(200);
     }
 
-    public static void zerototwohundred(int x) {
+    public static void zeroToTwoHundred(int x) {
         int counter = 0;
         while (counter < x) {
             System.out.println("i = " + counter);

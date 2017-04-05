@@ -4,12 +4,13 @@ package Old;
  * Created by LVIVSOFT\spolyakov on 27.03.17.
  */
 public class PopulateArraySumAllDoubleArray {
-    public static void main (String args[]){
+    public static void main(String args[]) {
 
         int[] array = populateArray(10, 500);
         calculateSums(array);
 
     }
+
     public static int[] populateArray(int size, int maxRandomNumber) {
         int[] array = new int[size];
         for (int i = 0; i < size; i++) {
@@ -19,15 +20,15 @@ public class PopulateArraySumAllDoubleArray {
         return array;
     }
 
-    public static void calculateSums(int [] array) {
+    public static void calculateSums(int[] array) {
         int sum1 = 0;
         int sum2 = 0;
-        for (int  i = 0; i < array.length; i++) {
-                sum1   = sum1 + array[i];
-                sum2  = sum2 + (int) Math.pow(array[i],2);
+        for (int i = 0; i < array.length; i++) {
+            sum1 = sum1 + array[i];
+            sum2 = sum2 + (int) Math.pow(array[i], 2);
 
         }
-        System.out.println( " All Elements = " + sum1 + "  Sum of Math pow = " + sum2 );
+        System.out.println(" All Elements = " + sum1 + "  Sum of Math pow = " + sum2);
     }
 }
 

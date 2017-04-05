@@ -3,13 +3,13 @@ package Old;
 /**
  * Created by Serhiy on 3/16/17.
  */
-public class Notcountdigtszerototwohundred {
+public class NotCountDigtsZeroToTwoHundred {
     public static void main(String args[]) {
 
-        hundredtozero(100);
+        hundredToZero(100);
     }
 
-    public static void hundredtozero(int x) {
+    public static void hundredToZero(int x) {
         int i = 0;
         while (i < x) {
             if (x % 2 != 0) {

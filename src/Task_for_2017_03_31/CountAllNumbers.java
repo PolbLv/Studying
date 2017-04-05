@@ -4,12 +4,13 @@ package Task_for_2017_03_31;
  * Created by LVIVSOFT\spolyakov on 03.04.17.
  */
 public class CountAllNumbers {
-    public static void main(String args []){
+    public static void main(String args[]) {
 
         numbers(4567);
     }
-    public static void numbers(int x){
-        StringBuffer s  =  new StringBuffer(String.valueOf(x));
+
+    public static void numbers(int x) {
+        StringBuffer s = new StringBuffer(String.valueOf(x));
         for (int i = 0; i < s.length(); i++)
             System.out.println(s.charAt(i));
     }

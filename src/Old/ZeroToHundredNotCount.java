@@ -3,15 +3,15 @@ package Old;
 /**
  * Created by Serhiy on 2/22/17.
  */
-public class Notcount {
-    public static void main (String args[]){
+public class ZeroToHundredNotCount {
+    public static void main(String args[]) {
 
         displayOddNumbers(100);
     }
 
     public static void displayOddNumbers(int x) {
         for (int i = 0; i <= x; i++) {
-            if (i  % 2 != 0) {
+            if (i % 2 != 0) {
                 System.out.println(i);
             }
         }

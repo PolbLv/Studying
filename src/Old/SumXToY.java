@@ -3,13 +3,13 @@ package Old;
 /**
  * Created by Serhiy on 2/22/17.
  */
-public class Sumxtoy {
+public class SumXToY {
     public static void main(String arg[]) {
-//        sumXtoY(4, 8);
-        sumXtoYodd(70, 90);
+//        sumXToY(4, 8);
+        sumXToYOdd(70, 90);
     }
 
-    public static void sumXtoY(int x, int y) {
+    public static void sumXToY(int x, int y) {
         int sum = 0;
         for (int i = x; i <= y; i++) {
             sum = sum + i;
@@ -17,7 +17,7 @@ public class Sumxtoy {
         System.out.println("Sum = " + sum);
     }
 
-    public static void sumXtoYodd(int x, int y) {
+    public static void sumXToYOdd(int x, int y) {
         int sum = 0;
         for (int i = x; i <= y; i++) {
             if (i % 2 != 0) {

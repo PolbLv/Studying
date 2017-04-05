@@ -9,8 +9,7 @@ public class SetExample {
 
         ArrayList<Integer> numbers = new ArrayList<Integer>(initialSize);
 
-        for (int i = 0; i < initialSize; i++)
-        {
+        for (int i = 0; i < initialSize; i++) {
             numbers.add(i);
             System.out.println(numbers.get(i));
         }

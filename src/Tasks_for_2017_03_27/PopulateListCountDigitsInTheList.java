@@ -9,8 +9,8 @@ public class PopulateListCountDigitsInTheList {
     public static void main(String args[]) {
 
         ArrayList<Integer> myList = populateList(25, 500);
-            int counter = 0;
-            for (int i = 0; i < myList.size(); i++) {
+        int counter = 0;
+        for (int i = 0; i < myList.size(); i++) {
             int el = myList.get(i);
             if (el % 2 == 0) {
                 counter++;

@@ -27,12 +27,12 @@ public class PopulateArrayRandomAndSimpleDigits {
         return myList;
     }
 
-    public static boolean isSimple (int num) {
-        if(num == 0 ){
+    public static boolean isSimple(int num) {
+        if (num == 0) {
             return false;
         }
         for (int x = 2; x < num; x++) {
-            if (num % x == 0 ) {
+            if (num % x == 0) {
                 return false;
             }
         }

@@ -3,7 +3,7 @@ package Old;
 /**
  * Created by Serhiy on 2/20/17.
  */
-public class Zerotox {
+public class VariantsZeroToX {
     public static void main(String args[]) {
 
 //        myMethod(5);
@@ -53,11 +53,12 @@ public class Zerotox {
             }
         }
     }
-    public static void myMethod6(int x){
+
+    public static void myMethod6(int x) {
         int counter = 0;
-        for (int i = 0; i<=x; i++) {
-            if (i % 3 !=0 && i % 17 != 0) {
-                counter ++;
+        for (int i = 0; i <= x; i++) {
+            if (i % 3 != 0 && i % 17 != 0) {
+                counter++;
                 System.out.println(i);
             }
         }

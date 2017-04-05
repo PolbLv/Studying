@@ -3,13 +3,13 @@ package Old;
 /**
  * Created by Serhiy on 3/13/17.
  */
-public class whilezerotohundred {
+public class WhileZeroToHundred {
     public static void main(String args[]) {
 
-        zerotohundred(100,20);
+        zeroToHundred(100, 20);
     }
 
-    public static void zerotohundred(int x, int y) {
+    public static void zeroToHundred(int x, int y) {
         int counter = 0;
         while (counter <= y) {
             if (x % 2 != 0) {

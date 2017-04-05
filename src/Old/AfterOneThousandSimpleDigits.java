@@ -5,7 +5,7 @@ import java.util.ArrayList;
 /**
  * Created by Serhiy on 3/16/17.
  */
-public class Afteronethousandsimpledigits {
+public class AfterOneThousandSimpleDigits {
     public static void main(String args[]) {
         onethousandsimpledigits(1000, 1000);
 
@@ -23,6 +23,9 @@ public class Afteronethousandsimpledigits {
     }
 
     public static boolean simple(int num) {
+        if (num == 0) {
+            return false;
+        }
         for (int x = 2; x < num; x++) {
             if (num % x == 0) {
                 return false;
