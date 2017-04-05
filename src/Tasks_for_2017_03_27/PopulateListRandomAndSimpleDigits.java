@@ -5,7 +5,7 @@ import java.util.ArrayList;
 /**
  * Created by Serhiy on 4/5/17.
  */
-public class PopulateArrayRandomAndSimpleDigits {
+public class PopulateListRandomAndSimpleDigits {
     public static void main(String args[]){
         int counter = 0;
         ArrayList<Integer> myList = populateList(13, 500);
@@ -14,7 +14,7 @@ public class PopulateArrayRandomAndSimpleDigits {
                 counter++;
             }
         }
-        System.out.println(myList);
+       // System.out.println(myList);
             System.out.println(counter);
 
 
