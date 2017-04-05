@@ -14,9 +14,9 @@ public class PopulateArrayRandomAndSimpleDigits {
                 counter++;
             }
         }
-        System.out.println(myList);
+        //System.out.println(myList);
             System.out.println(counter);
-        //System.out.println(0/0);
+
 
     }
     public static ArrayList<Integer> populateList() {
