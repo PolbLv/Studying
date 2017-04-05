@@ -24,6 +24,9 @@ public class SipmleHundredDigits {
     }
 
     public static boolean simple(int num) {
+        if (num == 0) {
+            return false;
+        }
         for (int x = 2; x < num; x++) {
             if (num % x == 0) {
                 return false;

@@ -22,8 +22,6 @@ public class PopulateListRandomDigitsWithSimpleIndexes {
 
     }
 
-
-
     public int getArrayIndex(int[] arr,int value) {
 
         int k=0;
