@@ -8,20 +8,23 @@ import java.util.ArrayList;
 public class PopulateListCountDigitsInTheList {
     public static void main(String args[]) {
 
-        ArrayList<Integer> myList = populateList();
-
-        for (int i = 0; i < myList.size(); i++) {
+        ArrayList<Integer> myList = populateList(25, 500);
+            int counter = 0;
+            for (int i = 0; i < myList.size(); i++) {
             int el = myList.get(i);
             if (el % 2 == 0) {
-                System.out.println((el));
+                counter++;
+                //System.out.println((el));
             }
         }
+        System.out.println("Counter = " + counter);
+
     }
 
-    public static ArrayList<Integer> populateList() {
+    public static ArrayList<Integer> populateList(int size, int limit) {
         ArrayList<Integer> myList = new ArrayList<>();
-        for (int i = 0; i < 13; i++) {
-            myList.add((int) (Math.random() * (500 + 1)));
+        for (int i = 0; i < size; i++) {
+            myList.add((int) (Math.random() * (limit + 1)));
         }
         return myList;
     }
