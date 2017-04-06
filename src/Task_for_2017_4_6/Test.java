@@ -10,14 +10,14 @@ public class Test
 {
 
     public static void main(String[] args) {
-        getDigitsOfNumber(3781);
-        ArrayList<Integer> digits = getDigitsOfNumber();
+        Integer num =  3781;
+        Integer[] digits = getDigits(num.toString());
         System.out.println(Arrays.toString(digits));
     }
 
-    public static ArrayList<Integer> getDigitsOfNumber(int number) {
+    public static Integer[] getDigits(String number) {
         List<Integer> digits = new ArrayList<>();
-        for(int i = 0; i < number; i++) {
+        for(int i = 0; i < number.length(); i++) {
             int j = Character.digit(number.charAt(i), 10);
             digits.add(j);
         }
