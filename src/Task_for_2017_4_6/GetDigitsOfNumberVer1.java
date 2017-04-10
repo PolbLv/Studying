@@ -5,7 +5,7 @@ import java.util.ArrayList;
 /**
  * Created by LVIVSOFT\spolyakov on 10.04.17.
  */
-public class GetDigitsOfNumber {
+public class GetDigitsOfNumberVer1 {
     public static void main(String args[]) {
 
         ArrayList<Integer> myList = getDigitsOfNumber(3781);
