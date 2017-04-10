@@ -8,23 +8,46 @@ import java.util.ArrayList;
 public class GetSumDigitsOfNumber {
     public static void main(String args[]) {
 
-        getDigitsOfNumber(8754);
+
+
+        printFinalResult(8754);
+        printFinalResult(45542);
+        printFinalResult(54857);
+        printFinalResult(11111101);
 
     }
 
     public static ArrayList<Integer> getDigitsOfNumber(int num) {
         ArrayList<Integer> digits = new ArrayList<>();
-        int sum = 0;
         while (num > 0) {
             digits.add(0, num % 10);
-            sum = sum + num % 10;
             num /= 10;
         }
-        System.out.println("Sum = " + sum);
         return digits;
+    }
+
+    public static int getSumОfDigitsOfNumber(ArrayList<Integer> digits) {
+        int sum = 0;
+
+        for (int i = 0; i < digits.size(); i++) {
+            sum += digits.get(i);
+        }
+        return sum;
+    }
+
+    public static void printFinalResult(int Medvid) {
+
+        ArrayList<Integer> Vedmedi = getDigitsOfNumber(Medvid);
+        int Ovechka = getSumОfDigitsOfNumber(Vedmedi);
+        System.out.println(Ovechka);
     }
 }
 
+/*типа сначала вызывается метод getDigitsOfNumber -
+на выходе список, потом этот список
+передаешь другому методу который считает сумму всех
+елементов и выводит на консоль*/
 
 /*Используя метод getDigitsOfNumber
 найти сумму всех цифр для следующих чисел: 8754, 45542, 54857,1111101*/
+
