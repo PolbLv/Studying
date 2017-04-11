@@ -2,9 +2,7 @@ package Task_for_2017_4_6;
 
 import java.util.ArrayList;
 
-/**
- * Created by LVIVSOFT\spolyakov on 10.04.17.
- */
+
 public class GetSumDigitsOfNumber {
     public static void main(String args[]) {
 
