@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5da2dff7-c26b-41b4-900e-71080a12f764" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Tasks_for_2017_04_12/FourthDigitsFirstDigitsMoreThanSumThreeOthers.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Tasks_for_2017_04_12/FourDigitsSumFirstAndSecondEquallyThirdAndFourth.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Tasks_for_2017_04_12/FourthDigitNumbersSumFirstAndLastSimpleDigits.java" afterPath="$PROJECT_DIR$/src/Tasks_for_2017_04_12/FourthDigitNumbersSumFirstAndLastSimpleDigits.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,26 +21,6 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file leaf-file-name="AfterOneThousandSimpleDigits.java" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/src/Old/AfterOneThousandSimpleDigits.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="-90">
-                    <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-                    <folding />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="ErrorTreeViewConfiguration">
     <option name="hideWarnings" value="true" />
     <option name="HIDE_WARNINGS" value="true" />
@@ -55,14 +34,14 @@
       <file leaf-file-name="FourthDigitNumbersSumFirstAndLastSimpleDigits.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tasks_for_2017_04_12/FourthDigitNumbersSumFirstAndLastSimpleDigits.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="32" column="5" selection-start-line="25" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
+            <state relative-caret-position="287">
+              <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="44" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FourthDigitsFirstDigitsMoreThanSumThreeOthers.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FourthDigitsFirstDigitsMoreThanSumThreeOthers.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tasks_for_2017_04_12/FourthDigitsFirstDigitsMoreThanSumThreeOthers.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
@@ -72,11 +51,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="FourDigitsSumFirstAndSecondEquallyThirdAndFourth.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Tasks_for_2017_04_12/FourDigitsSumFirstAndSecondEquallyThirdAndFourth.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="FourDigitsNumberSumFirstAndSecondMoreThanLastDigits.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tasks_for_2017_04_12/FourDigitsNumberSumFirstAndSecondMoreThanLastDigits.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="24" column="5" selection-start-line="17" selection-start-column="3" selection-end-line="24" selection-end-column="5" />
+            <state relative-caret-position="324">
+              <caret line="18" column="26" selection-start-line="17" selection-start-column="3" selection-end-line="24" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -117,16 +106,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
               <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CounterOfDigits.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Old/CounterOfDigits.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -173,7 +152,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Old/SumZeroToHundred.java" />
         <option value="$PROJECT_DIR$/src/Old/Ninemarchfirsttask.java" />
         <option value="$PROJECT_DIR$/src/Old/DoubleToHundred.java" />
         <option value="$PROJECT_DIR$/src/Old/Ninemarchsecondtask.java" />
@@ -224,6 +202,7 @@
         <option value="$PROJECT_DIR$/src/Tasks_for_2017_04_12/FourthDigitsNumbersFirstDigitsLessSecondLessThirdAndFourth.java" />
         <option value="$PROJECT_DIR$/src/Tasks_for_2017_04_12/FourthDigitNumbersSumFirstAndLastSimpleDigits.java" />
         <option value="$PROJECT_DIR$/src/Tasks_for_2017_04_12/FourthDigitsFirstDigitsMoreThanSumThreeOthers.java" />
+        <option value="$PROJECT_DIR$/src/Tasks_for_2017_04_12/FourDigitsSumFirstAndSecondEquallyThirdAndFourth.java" />
       </list>
     </option>
   </component>
@@ -436,27 +415,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="FullScreen" value="true" />
   </component>
-  <component name="RunManager" selected="Application.FourthDigitsFirstDigitsMoreThanSumThreeOthers">
-    <configuration default="false" name="FourDigitsNumbersSumInIncrementsEleven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Tasks_for_2017_04_12.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="Tasks_for_2017_04_12.FourDigitsNumbersSumInIncrementsEleven" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="New" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.FourDigitsSumFirstAndSecondEquallyThirdAndFourth">
     <configuration default="false" name="FourDigitsNumberSumFirstAndSecondMoreThanLastDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -525,6 +484,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="Tasks_for_2017_04_12.FourthDigitsFirstDigitsMoreThanSumThreeOthers" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="New" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="FourDigitsSumFirstAndSecondEquallyThirdAndFourth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Tasks_for_2017_04_12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Tasks_for_2017_04_12.FourDigitsSumFirstAndSecondEquallyThirdAndFourth" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -828,19 +807,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.FourDigitsNumbersSumInIncrementsEleven" />
-      <item index="1" class="java.lang.String" itemvalue="Application.FourDigitsNumberSumFirstAndSecondMoreThanLastDigits" />
-      <item index="2" class="java.lang.String" itemvalue="Application.FourthDigitsNumbersFirstDigitsLessSecondLessThirdAndFourth" />
-      <item index="3" class="java.lang.String" itemvalue="Application.FourthDigitNumbersSumFirstAndLastSimpleDigits" />
-      <item index="4" class="java.lang.String" itemvalue="Application.FourthDigitsFirstDigitsMoreThanSumThreeOthers" />
+      <item index="0" class="java.lang.String" itemvalue="Application.FourDigitsNumberSumFirstAndSecondMoreThanLastDigits" />
+      <item index="1" class="java.lang.String" itemvalue="Application.FourthDigitsNumbersFirstDigitsLessSecondLessThirdAndFourth" />
+      <item index="2" class="java.lang.String" itemvalue="Application.FourthDigitNumbersSumFirstAndLastSimpleDigits" />
+      <item index="3" class="java.lang.String" itemvalue="Application.FourthDigitsFirstDigitsMoreThanSumThreeOthers" />
+      <item index="4" class="java.lang.String" itemvalue="Application.FourDigitsSumFirstAndSecondEquallyThirdAndFourth" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.FourthDigitsFirstDigitsMoreThanSumThreeOthers" />
-        <item index="1" class="java.lang.String" itemvalue="Application.FourthDigitNumbersSumFirstAndLastSimpleDigits" />
-        <item index="2" class="java.lang.String" itemvalue="Application.FourthDigitsNumbersFirstDigitsLessSecondLessThirdAndFourth" />
-        <item index="3" class="java.lang.String" itemvalue="Application.FourDigitsNumberSumFirstAndSecondMoreThanLastDigits" />
-        <item index="4" class="java.lang.String" itemvalue="Application.FourDigitsNumbersSumInIncrementsEleven" />
+        <item index="0" class="java.lang.String" itemvalue="Application.FourDigitsSumFirstAndSecondEquallyThirdAndFourth" />
+        <item index="1" class="java.lang.String" itemvalue="Application.FourthDigitsFirstDigitsMoreThanSumThreeOthers" />
+        <item index="2" class="java.lang.String" itemvalue="Application.FourthDigitNumbersSumFirstAndLastSimpleDigits" />
+        <item index="3" class="java.lang.String" itemvalue="Application.FourthDigitsNumbersFirstDigitsLessSecondLessThirdAndFourth" />
+        <item index="4" class="java.lang.String" itemvalue="Application.FourDigitsNumberSumFirstAndSecondMoreThanLastDigits" />
       </list>
     </recent_temporary>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
@@ -887,13 +866,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1487449099578</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Update">
-      <created>1490865971661</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1490865971661</updated>
     </task>
     <task id="LOCAL-00011" summary="Update">
       <created>1490880510164</created>
@@ -1231,7 +1203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1492003892292</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Update">
+      <created>1492004951491</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1492004951491</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1255,7 +1234,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32922825" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28089887" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28089887" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1322,13 +1301,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Old/Sin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Old/whileTwoHundredToZero.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -1664,14 +1636,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tasks_for_2017_04_12/FourDigitsNumberSumFirstAndSecondMoreThanLastDigits.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="5" selection-start-line="17" selection-start-column="3" selection-end-line="24" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Tasks_for_2017_04_12/FourthDigitsNumbersFirstDigitsLessSecondLessThirdAndFourth.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
@@ -1688,18 +1652,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tasks_for_2017_04_12/FourthDigitNumbersSumFirstAndLastSimpleDigits.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="32" column="5" selection-start-line="25" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Tasks_for_2017_04_12/FourthDigitsFirstDigitsMoreThanSumThreeOthers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tasks_for_2017_04_12/FourthDigitNumbersSumFirstAndLastSimpleDigits.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="44" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tasks_for_2017_04_12/FourDigitsNumberSumFirstAndSecondMoreThanLastDigits.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="26" selection-start-line="17" selection-start-column="3" selection-end-line="24" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tasks_for_2017_04_12/FourDigitsSumFirstAndSecondEquallyThirdAndFourth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
