@@ -6,13 +6,14 @@ import java.util.ArrayList;
  * Created by LVIVSOFT\spolyakov on 12.04.17.
  */
 public class FourDigitsNumbersFirstAndSecondIsPreviousAndLast {
-    public static void main (String args []){
-        for (int i = 1000; i < 10000; i++){
-            if (getDigitsOfNumber(i).get(0) == getDigitsOfNumber(i).get(2) && getDigitsOfNumber(i).get(1) == getDigitsOfNumber(i).get(3)){
+    public static void main(String args[]) {
+        for (int i = 1000; i < 10000; i++) {
+            if (getDigitsOfNumber(i).get(0) == getDigitsOfNumber(i).get(2) && getDigitsOfNumber(i).get(1) == getDigitsOfNumber(i).get(3)) {
                 System.out.println(i);
             }
         }
     }
+
     public static ArrayList<Integer> getDigitsOfNumber(int num) {
         ArrayList<Integer> digits = new ArrayList<>();
         while (num > 0) {
