@@ -7,6 +7,7 @@ import java.util.ArrayList;
  */
 public class FourthDigitNumbersSumFirstAndLastSimpleDigits {
     public static void main(String args[]) {
+        int counter = 1000;
         int sum = 0;
         int increase = 0;
         for (int i = 1000; i < 10000; i++) {
@@ -15,10 +16,13 @@ public class FourthDigitNumbersSumFirstAndLastSimpleDigits {
                 increase = getDigitsOfNumber(i).get(1) * getDigitsOfNumber(i).get(2);
                 if (increase % 2 != 0) {
                     System.out.println("i =  " + i + " sum " + sum + " increase = " + increase);
+                    counter++;
                 }
 
             }
+
         }
+        System.out.println(counter);
     }
 
     public static ArrayList<Integer> getDigitsOfNumber(int num) {
