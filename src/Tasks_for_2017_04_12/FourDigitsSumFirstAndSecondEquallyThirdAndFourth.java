@@ -14,8 +14,6 @@ public class FourDigitsSumFirstAndSecondEquallyThirdAndFourth {
                 System.out.println(i);
             }
         }
-
-
     }
 
     public static ArrayList<Integer> getDigitsOfNumber(int num) {
