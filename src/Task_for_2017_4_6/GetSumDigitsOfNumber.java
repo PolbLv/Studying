@@ -6,12 +6,11 @@ import java.util.ArrayList;
 public class GetSumDigitsOfNumber {
     public static void main(String args[]) {
 
-
-
         printFinalResult(8754);
         printFinalResult(45542);
         printFinalResult(54857);
         printFinalResult(11111101);
+        System.out.println(getSumОfDigitsOfNumber(getDigitsOfNumber(15454)));
 
     }
 
@@ -33,11 +32,11 @@ public class GetSumDigitsOfNumber {
         return sum;
     }
 
-    public static void printFinalResult(int Medvid) {
+    public static void printFinalResult(int medvid) {
 
-        ArrayList<Integer> Vedmedi = getDigitsOfNumber(Medvid);
-        int Ovechka = getSumОfDigitsOfNumber(Vedmedi);
-        System.out.println(Ovechka);
+        ArrayList<Integer> vedmedi = getDigitsOfNumber(medvid);
+        int ovechka = getSumОfDigitsOfNumber(vedmedi);
+        System.out.println(ovechka);
     }
 }
 

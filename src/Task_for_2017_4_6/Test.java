@@ -1,26 +1,28 @@
 package Task_for_2017_4_6;
 
-import java.lang.Integer;
-import java.lang.String;
 import java.util.ArrayList;
-import java.util.List;
-import java.util.Arrays;
 
 public class Test {
     public static void main(String[] args) {
+        int sum = 0;
+        for( int i = 100; i <1000; i++ ){
+            sum = getDigitsOfNumber(i).get(0) + getDigitsOfNumber(i).get(1) + getDigitsOfNumber(i).get(2);
+            if (isSimple(sum)){
+                System.out.println("i = " + i + " sum = " +sum);
+
+            }
 
 
-        // System.out.println(getDigitsOfNumber(56767).get(1)+ "   " + getDigitsOfNumber(56767).get(4));
+//            if (getDigitsOfNumber(i).get(0) % 5 == 0 && getDigitsOfNumber(i).get(2) % 5 == 0 && getDigitsOfNumber(i).get(2) != 0){
+//                System.out.println(i);
+//            }
 
-        for (int i = 100; i < 1000; i++) {
-            List<Integer> digits = getDigitsOfNumber(i);
-            if (digits.get(0) + digits.get(1) + digits.get(2) == 7) {
-
-               System.out.println("i = " + i + " D = " + getDigitsOfNumber(i).get(2));
             }
 
         }
-    }
+
+
+
 
 
     public static ArrayList<Integer> getDigitsOfNumber(int num) {
