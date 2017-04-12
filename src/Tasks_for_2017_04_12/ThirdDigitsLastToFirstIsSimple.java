@@ -9,7 +9,7 @@ public class ThirdDigitsLastToFirstIsSimple {
         for (int i = 100; i < 1000; i++) {
             r = getLastToFirstDigitsOfNumber(i);
             if (isSimple(r)) {
-                System.out.println("r = " + r);
+                System.out.println(i);
             }
         }
     }
