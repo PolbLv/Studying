@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5da2dff7-c26b-41b4-900e-71080a12f764" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/LVIVSOFT_spolyakov.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Task_for_2017_4_6/FourDigitNumbersGetDigitalsOfNumbers.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Task_for_2017_4_6/FourDigitsNumberDevideToTheSameDigit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Tasks_for_2017_04_12/ThreeDigitNumbersSumFirstAndSecondDigitsEvenNumber.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Task_for_2017_4_6/GetSumDigitsOfNumber.java" afterPath="$PROJECT_DIR$/src/Task_for_2017_4_6/GetSumDigitsOfNumber.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Task_for_2017_4_6/Test.java" afterPath="$PROJECT_DIR$/src/Task_for_2017_4_6/Test.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Tasks_for_2017_03_27/PopulateArrayRandomAndSimpleDigits.java" afterPath="$PROJECT_DIR$/src/Tasks_for_2017_03_27/PopulateArrayRandomAndSimpleDigits.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Tasks_for_2017_04_12/ThreeDigitNumbersSumFirstAndSecondDigitsEvenNumber.java" afterPath="$PROJECT_DIR$/src/Tasks_for_2017_04_12/ThreeDigitNumbersSumFirstAndSecondDigitsEvenNumber.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -120,8 +114,8 @@
       <file leaf-file-name="ThreeDigitNumbersSumFirstAndSecondDigitsEvenNumber.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Tasks_for_2017_04_12/ThreeDigitNumbersSumFirstAndSecondDigitsEvenNumber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            <state relative-caret-position="72">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -1145,7 +1139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1491489651078</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Update">
+      <created>1491986088971</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1491986088971</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1247,6 +1248,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1583,8 +1585,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tasks_for_2017_04_12/ThreeDigitNumbersSumFirstAndSecondDigitsEvenNumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="72">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
