@@ -2,9 +2,6 @@ package Tasks_for_2017_04_12;
 
 import java.util.ArrayList;
 
-/**
- * Created by LVIVSOFT\spolyakov on 12.04.17.
- */
 public class FourDigitsNumberSumFirstAndSecondMoreThanLastDigits {
     public static void main(String args[]) {
         int sum1 = 0;

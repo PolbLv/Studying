@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5da2dff7-c26b-41b4-900e-71080a12f764" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Tasks_for_2017_04_12/FourDigitsNumberSumFirstAndSecondMoreThanLastDigits.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Tasks_for_2017_04_12/FourDigitsNumberSumFirstAndSecondMoreThanLastDigits.java" afterPath="$PROJECT_DIR$/src/Tasks_for_2017_04_12/FourDigitsNumberSumFirstAndSecondMoreThanLastDigits.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -74,8 +73,8 @@
       <file leaf-file-name="FourDigitsNumberSumFirstAndSecondMoreThanLastDigits.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Tasks_for_2017_04_12/FourDigitsNumberSumFirstAndSecondMoreThanLastDigits.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="21" column="54" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
+            <state relative-caret-position="72">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -852,13 +851,6 @@
       <option name="presentableId" value="Default" />
       <updated>1487449099578</updated>
     </task>
-    <task id="LOCAL-00004" summary="Update">
-      <created>1490819346259</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1490819346259</updated>
-    </task>
     <task id="LOCAL-00005" summary="Update">
       <created>1490863617263</created>
       <option name="number" value="00005" />
@@ -1195,7 +1187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1491996601082</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Update">
+      <created>1491997689842</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1491997689842</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1647,8 +1646,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tasks_for_2017_04_12/FourDigitsNumberSumFirstAndSecondMoreThanLastDigits.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="54" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
+        <state relative-caret-position="72">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
