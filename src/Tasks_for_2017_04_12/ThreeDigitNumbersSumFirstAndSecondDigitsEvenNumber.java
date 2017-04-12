@@ -23,5 +23,6 @@ public class ThreeDigitNumbersSumFirstAndSecondDigitsEvenNumber {
         }
         return digits;
     }
+
 }
 //Вывести все трехзначные числа у которых сумма первой и третьей цифры четное число.
