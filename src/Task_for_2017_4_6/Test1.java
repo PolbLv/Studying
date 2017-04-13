@@ -6,30 +6,22 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Arrays;
 
-public class Test1 {
+public class Test {
     public static void main(String[] args) {
 
-        verify(222);
-        verify(123);
-        verify(2424);
+
+        // System.out.println(getDigitsOfNumber(56767).get(1)+ "   " + getDigitsOfNumber(56767).get(4));
+
+        for (int i = 100; i < 1000; i++) {
+            List<Integer> digits = getDigitsOfNumber(i);
+            if (digits.get(0) + digits.get(1) + digits.get(2) == 7) {
+
+               System.out.println("i = " + i + " D = " + getDigitsOfNumber(i).get(2));
+            }
+
+        }
     }
 
-    public static void verify(int number) {
-        ArrayList<Integer> digitsList = getDigitsOfNumber(number);
-        boolean isNumberINeed = false;
-        for(int i = 0; i<digitsList.size(); i++){
-            if(number % digitsList.get(i) == 0){
-                isNumberINeed = true;
-                continue;
-            } else {
-                isNumberINeed = false;
-                break;
-            }
-        }
-        if(isNumberINeed){
-            System.out.println(number);
-        }
-    }
 
     public static ArrayList<Integer> getDigitsOfNumber(int num) {
         ArrayList<Integer> digits = new ArrayList<>();
@@ -39,6 +31,19 @@ public class Test1 {
         }
         return digits;
     }
+
+    public static boolean isSimple(int num) {
+        if (num == 0) {
+            return false;
+        }
+        for (int x = 2; x < num; x++) {
+            if (num % x == 0) {
+                return false;
+            }
+        }
+        return true;
+    }
+
 }
 
 
