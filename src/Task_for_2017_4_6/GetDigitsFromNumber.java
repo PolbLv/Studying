@@ -28,8 +28,8 @@ public class GetDigitsFromNumber {
         return random;
     }
     public static ArrayList<Integer> getDigitsOfNumber(int number){
-        ArrayList<Integer> myList = new ArrayList<>();
-        StringBuffer s = new StringBuffer(String.valueOf(number));
+            ArrayList<Integer> myList = new ArrayList<>();
+            StringBuffer s = new StringBuffer(String.valueOf(number));
         for (int i = 0; i < s.length(); i++) {
             myList.add(Character.getNumericValue(s.charAt(i)));
         }
