@@ -18,7 +18,6 @@ public class SixDigitsNumbersFirstAndLast {
         ArrayList<Integer> digits = new ArrayList<>();
         if (num == 0) {
             digits.add(0);
-            return digits;
         }
         while (num > 0) {
             digits.add(0, num % 10);
