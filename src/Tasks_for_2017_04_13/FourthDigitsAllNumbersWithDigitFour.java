@@ -15,7 +15,6 @@ public class FourthDigitsAllNumbersWithDigitFour {
         }
     }
 
-
     public static boolean numbersWithDigitFour(int x) {
         ArrayList<Integer> var = getDigitsOfNumber(x);
         for (int i = 0; i <var.size(); i++) {
