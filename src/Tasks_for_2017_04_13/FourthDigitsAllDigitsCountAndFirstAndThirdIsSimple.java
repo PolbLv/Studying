@@ -11,9 +11,8 @@ public class FourthDigitsAllDigitsCountAndFirstAndThirdIsSimple {
         int sum;
         for (int i = 1000; i < 10000; i++) {
             sum = getDigitsOfNumber(i).get(0) + getDigitsOfNumber(i).get(1) + getDigitsOfNumber(i).get(2) + getDigitsOfNumber(i).get(3);
-            numbers = getDigitsOfNumber(i).get(0) * 10 + 1;
-            if (sum % 2 == 0 && isSimple(numbers) )  {
-
+            numbers = getDigitsOfNumber(i).get(0) * 10 + getDigitsOfNumber(i).get(2);
+            if (sum % 2 == 0 && isSimple(numbers))  {
 
                 System.out.println("i = " + i + " sum = " + sum + " isSimple = " + numbers );
             }
@@ -40,9 +39,7 @@ public class FourthDigitsAllDigitsCountAndFirstAndThirdIsSimple {
         return true;
     }
 
-
 }
-
 /*Вывести все 4значные числа у которых сумма всех цифр четное число и
 число сформированное из первой и третьей цифры простое число.
 1414 - сумма цифр = 10, число 11 - простое число. 3218 - сумма цифр = 14 , число 31 - простое*/
