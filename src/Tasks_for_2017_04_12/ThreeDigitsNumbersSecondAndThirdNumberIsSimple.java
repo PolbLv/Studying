@@ -23,7 +23,7 @@ public class ThreeDigitsNumbersSecondAndThirdNumberIsSimple {
     }
 
     public static boolean isSimple(int num) {
-        if (num == 0 || num ==1) {
+        if (num == 0 || num == 1) {
             return false;
         }
         for (int x = 2; x < num; x++) {
