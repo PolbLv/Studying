@@ -11,7 +11,7 @@ public class EightThousandDigitsOfLeftEqualRight {
             sum1 = getDigitsOfNumber(i).get(0) + getDigitsOfNumber(i).get(1) + getDigitsOfNumber(i).get(2) + getDigitsOfNumber(i).get(3);
             sum2 = getDigitsOfNumber(i).get(4) + getDigitsOfNumber(i).get(5) + getDigitsOfNumber(i).get(6) + getDigitsOfNumber(i).get(7);
             if (sum1 == sum2) {
-                System.out.println(" i = " +  i + " Left =  " + sum1 + " Right = " + sum2);
+                System.out.println(" i = " + i + " Left =  " + sum1 + " Right = " + sum2);
             }
         }
     }
