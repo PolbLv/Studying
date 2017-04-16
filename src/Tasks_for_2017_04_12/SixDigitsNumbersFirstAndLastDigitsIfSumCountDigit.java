@@ -2,13 +2,17 @@ package Tasks_for_2017_04_12;
 
 import java.util.ArrayList;
 
-public class ThreeDigitsNumbersSecondAndThirdNumberIsSimple {
+public class SixDigitsNumbersFirstAndLastDigitsIfSumCountDigit {
     public static void main(String args[]) {
-        int sum = 0;
-        for (int i = 100; i < 1000; i++) {
-            sum = getDigitsOfNumber(i).get(1) + getDigitsOfNumber(i).get(2);
-            if (isSimple(sum)) {
-                System.out.println("i  = " + i + " sum = " + sum);
+        ArrayList<Integer> sum;
+
+        for (int i = 0; i < 100000; i++) {
+            if (isSimple(i) ) {
+                sum = getDigitsOfNumber(i);
+                if ((sum.get(0) + sum.get(sum.size() - 1)) % 2 == 0){
+
+                    System.out.println(i);
+                }
             }
         }
     }
@@ -34,5 +38,5 @@ public class ThreeDigitsNumbersSecondAndThirdNumberIsSimple {
         return true;
     }
 }
-//Вывести все трехзначные числа у которых сумма второй и третьей цифры простое число
 
+//Вывести все простые числа от 0 до 100000 у которых сумма первой и последней цифры четное число

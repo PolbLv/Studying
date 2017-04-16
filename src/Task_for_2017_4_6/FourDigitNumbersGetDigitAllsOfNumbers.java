@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * Created by LVIVSOFT\spolyakov on 11.04.17.
  */
-public class FourDigitNumbersGetDigitalsOfNumbers {
+public class FourDigitNumbersGetDigitAllsOfNumbers {
     public static void main(String args[]) {
         //int counter = 0;
         for (int i = 1000; i < 10000; i++) {
