@@ -4,9 +4,7 @@ package Tasks_for_2017_04_13;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by Serhiy on 4/16/17.
- */
+
 public class ThousandRandomDigitsAndIsSimple {
     public static void main(String args[]) {
        int sum = 0;
