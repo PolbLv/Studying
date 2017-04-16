@@ -20,7 +20,6 @@ public class EightThousandDigitsOfLeftEqualRight {
             }
         }
     }
-
     public static ArrayList<Integer> getDigitsOfNumber(int num) {
         ArrayList<Integer> digits = new ArrayList<>();
         while (num > 0) {

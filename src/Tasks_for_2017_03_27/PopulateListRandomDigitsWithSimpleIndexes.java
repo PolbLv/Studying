@@ -8,7 +8,7 @@ import java.util.ArrayList;
 public class PopulateListRandomDigitsWithSimpleIndexes {
     public static void main(String args[]) {
 
-        ArrayList<Integer> myList = populateList(5, 10);
+        ArrayList<Integer> myList = populateList(5, 100);
         System.out.println(myList);
         for (int i = 0; i < myList.size(); i++) {
             if (isSimple(i)) {
