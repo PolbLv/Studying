@@ -14,14 +14,10 @@ public class EightThousandDigitsOfLeftEqualRight {
             if (sum1 == sum2) {
                 counter++;
                 System.out.println("number " + counter + ": " + i + " Left =  " + sum1 + " Right = " + sum2);
-
-
             }
-            if(counter == 1000)
+            if (counter == 1000)
                 break;
-
         }
-
     }
 
     public static ArrayList<Integer> getDigitsOfNumber(int num) {

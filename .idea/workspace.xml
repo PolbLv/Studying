@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5da2dff7-c26b-41b4-900e-71080a12f764" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Tasks_for_2017_04_13/EightThousandDigitsOfLeftEqualRight.java" afterPath="$PROJECT_DIR$/src/Tasks_for_2017_04_13/EightThousandDigitsOfLeftEqualRight.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,8 +66,8 @@
       <file leaf-file-name="EightThousandDigitsOfLeftEqualRight.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Tasks_for_2017_04_13/EightThousandDigitsOfLeftEqualRight.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+            <state relative-caret-position="285">
+              <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -800,13 +801,6 @@
       <option name="presentableId" value="Default" />
       <updated>1487449099578</updated>
     </task>
-    <task id="LOCAL-00001" summary="Update">
-      <created>1490727257343</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1490727257343</updated>
-    </task>
     <task id="LOCAL-00002" summary="Update">
       <created>1490814233788</created>
       <option name="number" value="00002" />
@@ -1143,7 +1137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1492361560776</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Update">
+      <created>1492361573782</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1492361573784</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1663,8 +1664,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tasks_for_2017_04_13/EightThousandDigitsOfLeftEqualRight.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        <state relative-caret-position="285">
+          <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
           <folding />
         </state>
       </provider>
