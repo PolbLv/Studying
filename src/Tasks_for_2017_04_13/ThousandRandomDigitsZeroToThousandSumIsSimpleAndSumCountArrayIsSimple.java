@@ -9,7 +9,7 @@ public class ThousandRandomDigitsZeroToThousandSumIsSimpleAndSumCountArrayIsSimp
 
         int sum1 = 0;
         int sum2 = 0;
-        List<Integer> myList = populateList(10, 20);
+        List<Integer> myList = populateList(1000, 1000);
         for (int i = 0; i < myList.size(); i++) {
             if (isSimple(myList.get(i))) {
                 sum1 = sum1 + myList.get(i);
