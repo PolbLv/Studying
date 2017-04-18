@@ -15,7 +15,7 @@ public class FourthDigitNumbersSumFirstAndLastSimpleDigits {
             if (isSimple(sum)) {
                 increase = getDigitsOfNumber(i).get(1) * getDigitsOfNumber(i).get(2);
                 if (increase % 2 != 0) {
-                    //System.out.println("i =  " + i + " sum " + sum + " increase = " + increase);
+                    System.out.println("i =  " + i + " sum " + sum + " increase = " + increase);
                     counter++;
                 }
             }

@@ -6,10 +6,10 @@ package Old;
 public class DoubleToTenThousand {
     public static void main(String args[]) {
 
-        doubleTotentousand(10000);
+        doubleToTenThousand(10000);
     }
 
-    public static void doubleTotentousand(int x) {
+    public static void doubleToTenThousand(int x) {
         for (int i = 0; i <= x; i++) {
             if (Math.sqrt(i) % 2 == 0 && Math.sqrt(i) % 7 == 0) {
                 System.out.println("number = " + i + " square root = " + (int) Math.sqrt(i));

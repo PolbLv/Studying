@@ -34,9 +34,7 @@ public class AfterOneThousandSimpleDigits {
         return true;
     }
 
-    /**
-     * Created by Serhiy on 3/29/17.
-     */
+
     public static class ArrayListPopulateArrayRandom {
         public static void main(String args[]) {
 
