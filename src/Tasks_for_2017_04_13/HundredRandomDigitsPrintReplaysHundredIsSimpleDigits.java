@@ -1,28 +1,34 @@
 package Tasks_for_2017_04_13;
 
 
-import java.util.Random;
+import java.util.ArrayList;
+import java.util.List;
 
 public class HundredRandomDigitsPrintReplaysHundredIsSimpleDigits {
     public static void main(String args[]) {
-        randomDigits(100);
-
-    }
-
-    public static int randomDigits(int limit) {
-        Random random = new Random();
+        List<Integer> myList = populateList(1000, 1000);
         int counter = 0;
-        for (int i = 0; i < limit; i++) {
-            int result = random.nextInt(100) + 1;
-            if (isSimple(result)) {
+        for (int i = 0; i < myList.size(); i++) {
+            if (isSimple(i)) {
                 counter++;
-
-                System.out.println(result);
+                System.out.println("number " + counter + " i =  " + i );
+            }
+            if (counter == 100) {
+                break;
             }
         }
-        System.out.println("counter  = " + counter);
+        System.out.println(" result = " +  counter);
+    }
 
-        return limit;
+    public static List<Integer> populateList(int size, int limit) {
+        List<Integer> random = new ArrayList<>();
+
+        for (int i = 0; i < size; i++) {
+
+            random.add((int) (Math.random() * (limit + 1)));
+        }
+        System.out.println(random);
+        return random;
     }
 
     public static boolean isSimple(int num) {

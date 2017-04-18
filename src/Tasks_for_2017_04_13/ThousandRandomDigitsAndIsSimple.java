@@ -4,7 +4,6 @@ package Tasks_for_2017_04_13;
 import java.util.ArrayList;
 import java.util.List;
 
-
 public class ThousandRandomDigitsAndIsSimple {
     public static void main(String args[]) {
        int sum = 0;
@@ -15,7 +14,6 @@ public class ThousandRandomDigitsAndIsSimple {
                 System.out.println(" i = " + i + " el = " + myList.get(i));
             }
         }
-
         System.out.println("sum = " + sum);
     }
 
