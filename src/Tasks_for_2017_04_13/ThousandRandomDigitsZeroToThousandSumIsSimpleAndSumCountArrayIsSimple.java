@@ -13,17 +13,16 @@ public class ThousandRandomDigitsZeroToThousandSumIsSimpleAndSumCountArrayIsSimp
         for (int i = 0; i < myList.size(); i++) {
             if (isSimple(myList.get(i))) {
                 sum1 = sum1 + myList.get(i);
-            // System.out.println(" i = " + i + " ArrayList = " + sum1);
+                // System.out.println(" i = " + i + " ArrayList = " + sum1);
             }
-            if (isSimple(i) && myList.get(i) % 2 ==0) {
-                 sum2 = sum2 + myList.get(i);
-             //   System.out.println("i = " + i + " My List get  " + myList.get(i) + " sum What ? = " + sum2);
+            if (isSimple(i) && myList.get(i) % 2 == 0) {
+                sum2 = sum2 + myList.get(i);
+                //   System.out.println("i = " + i + " My List get  " + myList.get(i) + " sum What ? = " + sum2);
             }
-            }
+        }
         System.out.println("sum2 = " + sum2);
         System.out.println("sum1 = " + sum1);
-        }
-
+    }
 
 
     public static List<Integer> populateList(int size, int limit) {
