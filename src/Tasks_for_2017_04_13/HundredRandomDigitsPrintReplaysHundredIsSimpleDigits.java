@@ -11,13 +11,17 @@ public class HundredRandomDigitsPrintReplaysHundredIsSimpleDigits {
 
     public static int randomDigits(int limit) {
         Random random = new Random();
-
+        int counter = 0;
         for (int i = 0; i < limit; i++) {
             int result = random.nextInt(100) + 1;
-            if (isSimple(result))
+            if (isSimple(result)) {
+                counter++;
 
-            System.out.println(result);
+                System.out.println(result);
+            }
         }
+        System.out.println("counter  = " + counter);
+
         return limit;
     }
 
