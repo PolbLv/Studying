@@ -5,7 +5,6 @@ import java.util.Random;
 public class HundredRandomDigitsPrintReplaysHundredIsSimpleDigits {
     public static void main(String args[]) {
         randomDigits(100);
-
     }
 
     public static void randomDigits(int size) {
@@ -17,13 +16,11 @@ public class HundredRandomDigitsPrintReplaysHundredIsSimpleDigits {
             int result = random.nextInt(100) + 1;
             if (isSimple(result)) {
 
-
                 System.out.println("i = " + result);
                 counter++;
             }
         }
         System.out.println("counter  = " + counter + " replays = " + replays);
-
     }
 
     public static boolean isSimple(int num) {
