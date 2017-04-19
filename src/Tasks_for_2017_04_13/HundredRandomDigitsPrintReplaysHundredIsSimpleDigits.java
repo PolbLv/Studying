@@ -4,14 +4,15 @@ import java.util.Random;
 
 public class HundredRandomDigitsPrintReplaysHundredIsSimpleDigits {
     public static void main(String args[]) {
-        randomDigits(100, 100);
+        randomDigits(100);
 
     }
-
-    public static void randomDigits(int x, int size) {
+    public static void randomDigits(int size) {
        Random random = new Random();
         int counter = 0;
+        int k = 0;
         while (counter < size) {
+            k++;
             int result = random.nextInt(100) + 1;
             if (isSimple(result)) {
 
@@ -19,9 +20,8 @@ public class HundredRandomDigitsPrintReplaysHundredIsSimpleDigits {
                 System.out.println("i = " + result);
                 counter++;
             }
-            x++;
         }
-        System.out.println("counter  = " + counter);
+        System.out.println("counter  = " + counter + " replays = " + k);
 
     }
 
