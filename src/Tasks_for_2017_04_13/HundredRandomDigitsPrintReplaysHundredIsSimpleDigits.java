@@ -7,12 +7,13 @@ public class HundredRandomDigitsPrintReplaysHundredIsSimpleDigits {
         randomDigits(100);
 
     }
+
     public static void randomDigits(int size) {
-       Random random = new Random();
+        Random random = new Random();
         int counter = 0;
-        int k = 0;
+        int replays = 0;
         while (counter < size) {
-            k++;
+            replays++;
             int result = random.nextInt(100) + 1;
             if (isSimple(result)) {
 
@@ -21,7 +22,7 @@ public class HundredRandomDigitsPrintReplaysHundredIsSimpleDigits {
                 counter++;
             }
         }
-        System.out.println("counter  = " + counter + " replays = " + k);
+        System.out.println("counter  = " + counter + " replays = " + replays);
 
     }
 
