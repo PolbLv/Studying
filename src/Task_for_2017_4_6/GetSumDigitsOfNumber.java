@@ -36,7 +36,7 @@ public class GetSumDigitsOfNumber {
 
         ArrayList<Integer> vedmedi = getDigitsOfNumber(medvid);
         int ovechka = getSumОfDigitsOfNumber(vedmedi);
-        System.out.println(ovechka);
+        System.out.println(" i = " + ovechka);
     }
 }
 
