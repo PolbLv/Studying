@@ -20,8 +20,8 @@ public class HundredRandomDigitsSumAllDigitsSumAllIsSimpleDigitsSumAllCountDigit
            /* System.out.println(" i = " + i + " el = " + myList.get(i) + " sumAllNumbers = " + sumAllNumbers +
                     " sumAllNumbersIsSimple =  " + sumAllNumbersIsSimple + " sumCountNumbersIsSimple = " + sumCountNumbersIsSimple);*/
         }
-       // System.out.println(" sumAllNumbers = " + sumAllNumbers + " sumAllNumbersIsSimple =  "
-                //+ sumAllNumbersIsSimple + " sumCountNumbersIsSimple = " + sumCountNumbersIsSimple);
+       System.out.println(" sumAllNumbers = " + sumAllNumbers + " sumAllNumbersIsSimple =  "
+                + sumAllNumbersIsSimple + " sumCountNumbersIsSimple = " + sumCountNumbersIsSimple);
     }
 
 
