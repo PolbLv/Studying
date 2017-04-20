@@ -11,7 +11,7 @@ public class HundredRandomDigitsSumAllDigitsSumAllIsSimpleDigitsSumAllCountDigit
         List<Integer> myList = populateList(1000, 100);
         for (int i = 0; i < myList.size(); i++) {
             sumAllNumbers = sumAllNumbers + myList.get(i);
-            if (isSimple(i)) {
+            if ( isSimple(myList.get(i))){
                 sumAllNumbersIsSimple = sumAllNumbersIsSimple + myList.get(i);
             }
             if (myList.get(i) % 2 == 0 && isSimple(i)) {
@@ -20,8 +20,8 @@ public class HundredRandomDigitsSumAllDigitsSumAllIsSimpleDigitsSumAllCountDigit
            /* System.out.println(" i = " + i + " el = " + myList.get(i) + " sumAllNumbers = " + sumAllNumbers +
                     " sumAllNumbersIsSimple =  " + sumAllNumbersIsSimple + " sumCountNumbersIsSimple = " + sumCountNumbersIsSimple);*/
         }
-        System.out.println(" sumAllNumbers = " + sumAllNumbers + " sumAllNumbersIsSimple =  "
-                + sumAllNumbersIsSimple + " sumCountNumbersIsSimple = " + sumCountNumbersIsSimple);
+       // System.out.println(" sumAllNumbers = " + sumAllNumbers + " sumAllNumbersIsSimple =  "
+                //+ sumAllNumbersIsSimple + " sumCountNumbersIsSimple = " + sumCountNumbersIsSimple);
     }
 
 
@@ -32,7 +32,7 @@ public class HundredRandomDigitsSumAllDigitsSumAllIsSimpleDigitsSumAllCountDigit
 
             random.add((int) (Math.random() * (limit + 1)));
         }
-        //System.out.println(random);
+        System.out.println(random);
         return random;
     }
 
