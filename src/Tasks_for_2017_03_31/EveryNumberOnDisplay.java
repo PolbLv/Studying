@@ -5,12 +5,14 @@ package Tasks_for_2017_03_31;
  */
 public class EveryNumberOnDisplay {
     public static void main(String args[]) {
+
         numberOnDisplay(4567);
     }
 
+
     public static void numberOnDisplay(int x) {
         int i = 0;
-        for (; i < 10; i++) {
+        for (; x < 10; i++) {
             // что-то делаем
 
             System.out.println("\n" + i);

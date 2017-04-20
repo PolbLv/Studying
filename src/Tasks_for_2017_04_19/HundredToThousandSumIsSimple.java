@@ -44,7 +44,6 @@ public class HundredToThousandSumIsSimple {
         }
         return true;
     }
-
 }
 
 /* Вывести все числа от 100 до 10000 у которых сумма цифр простое число.*/
