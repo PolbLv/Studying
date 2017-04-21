@@ -7,7 +7,7 @@ public class ZeroToHundredCrossFunctionalWay {
     public static void main(String arg[]) {
         ZeroToHundred(0, 100);
         minusHundredToZero(-100, 0);
-        evenZeroTohundred(0, 100);
+        evenZeroToHundred(0, 100);
         minusOddHundredToZero( -100, 0);
     }
 
@@ -23,7 +23,7 @@ public class ZeroToHundredCrossFunctionalWay {
         }
     }
 
-    public static void evenZeroTohundred(int min, int max) {
+    public static void evenZeroToHundred(int min, int max) {
         for (int i =min; i <= max; i++) {
             if (i % 2 == 0) {
                 System.out.println("evenZeroToHundred " + i);

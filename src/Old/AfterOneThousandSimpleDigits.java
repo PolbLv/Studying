@@ -7,11 +7,11 @@ import java.util.ArrayList;
  */
 public class AfterOneThousandSimpleDigits {
     public static void main(String args[]) {
-        onethousandsimpledigits(1000, 1000);
+        oneThousandSimpleDigits(1000, 1000);
 
     }
 
-    public static void onethousandsimpledigits(int x, int y) {
+    public static void oneThousandSimpleDigits(int x, int y) {
         int counter = 0;
         while (counter < y) {
             if (simple(x)) {

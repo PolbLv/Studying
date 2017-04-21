@@ -14,9 +14,6 @@ public class FourDigitsNumberDevideToTheSameDigit {
     }
 }
 
-
-
-
     // System.out.println(counter);
 /*
     public static ArrayList<Integer> getDigitsOfNumber(int num) {

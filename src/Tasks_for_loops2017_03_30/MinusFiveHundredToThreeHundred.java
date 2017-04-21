@@ -7,7 +7,7 @@ public class MinusFiveHundredToThreeHundred {
     public static void main(String args[]) {
 
         minusFiveHundred(-500, -300);
-        fivehundredsimpledigits(500, 900);
+        fiveHundredSimpleDigits(500, 900);
     }
 
     public static void minusFiveHundred(int min, int max) {
@@ -18,7 +18,7 @@ public class MinusFiveHundredToThreeHundred {
         }
     }
 
-    public static void fivehundredsimpledigits(int x, int y) {
+    public static void fiveHundredSimpleDigits(int x, int y) {
         int counter = 0;
         while (counter < y) {
             if (simple(x)) {

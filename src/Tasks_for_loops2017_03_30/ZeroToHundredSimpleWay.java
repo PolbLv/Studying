@@ -7,7 +7,7 @@ public class ZeroToHundredSimpleWay {
     public static void main(String[] args) {
         zeroToHundred(100);
         minusHundredToZero(0);
-        evenZeroTohundred(100);
+        evenZeroToHundred(100);
         minusOddHundredToZero(0);
 
     }
@@ -23,7 +23,7 @@ public class ZeroToHundredSimpleWay {
             System.out.println("minusHundredToZero " + i);
         }
     }
-    public static void evenZeroTohundred(int x){
+    public static void evenZeroToHundred(int x){
         for (int i= 0; i <= x; i++){
             if (i % 2 == 0){
                 System.out.println("evenZeroToHundred " + i);
