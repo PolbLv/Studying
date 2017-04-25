@@ -8,35 +8,34 @@ public class NumbersTenToHundredMeasuresToItself {
         int n = 0;
         List<Integer> myList = getDigitsOfNumber(100);
         for (int i = 0; i < myList.size(); i++) {
-            if (method(n) == myList.size(n)) {
+           // if (method(n) == myList.size()) {
                 System.out.println();
 
             }
         }
+    //}
+
+    public static String method(int n) {
+        String res = " ";
+        for (int i = 1; i <= n; i++) {
+            if (0 == (n % i)) {
+                res += i + " , ";
+                System.out.println(i);
+            }
+        }
+        return res;
     }
 
-        public static String method (int n){
-            String res = " ";
-            for (int i = 1; i <= n; i++) {
-                if (0 == (n % i)) {
-                    res += i + " , ";
-                    System.out.println(i);
-                }
-            }
-            return res;
+    public static ArrayList<Integer> getDigitsOfNumber(int num) {
+        ArrayList<Integer> digits = new ArrayList<>();
+        while (num > 0) {
+            digits.add(0, num % 10);
+            num /= 10;
         }
-
-
-        public static ArrayList<Integer> getDigitsOfNumber(int num){
-            ArrayList<Integer> digits = new ArrayList<>();
-            while (num > 0) {
-                digits.add(0, num % 10);
-                num /= 10;
-            }
-            return digits;
-        }
+        return digits;
     }
 }
+
 
 /*Для каждого из чисел от 10 до 100 вывести все их делители. Например:
         10 - 1 2 5
