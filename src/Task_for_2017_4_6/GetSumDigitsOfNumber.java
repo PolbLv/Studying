@@ -11,7 +11,6 @@ public class GetSumDigitsOfNumber {
         printFinalResult(54857);
         printFinalResult(11111101);
         System.out.println(getSumОfDigitsOfNumber(getDigitsOfNumber(15454)));
-
     }
 
     public static ArrayList<Integer> getDigitsOfNumber(int num) {

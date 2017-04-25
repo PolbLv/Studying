@@ -8,7 +8,7 @@ public class HundredRandomDigitsSumAllDigitsSumAllIsSimpleDigitsSumAllCountDigit
         int sumAllNumbers = 0;
         int sumAllNumbersIsSimple = 0;
         int sumCountNumbersIsSimple = 0;
-        List<Integer> myList = populateList(1000, 100);
+        List<Integer> myList = populateList(10, 10);
         for (int i = 0; i < myList.size(); i++) {
             sumAllNumbers = sumAllNumbers + myList.get(i);
             if ( isSimple(myList.get(i))){
@@ -16,9 +16,10 @@ public class HundredRandomDigitsSumAllDigitsSumAllIsSimpleDigitsSumAllCountDigit
             }
             if (myList.get(i) % 2 == 0 && isSimple(i)) {
                 sumCountNumbersIsSimple = sumCountNumbersIsSimple + myList.get(i);
+                System.out.println(myList + "  " +  myList.get(i));
             }
-           /* System.out.println(" i = " + i + " el = " + myList.get(i) + " sumAllNumbers = " + sumAllNumbers +
-                    " sumAllNumbersIsSimple =  " + sumAllNumbersIsSimple + " sumCountNumbersIsSimple = " + sumCountNumbersIsSimple);*/
+           System.out.println(" i = " + i + " el = " + myList.get(i) + " sumAllNumbers = " + sumAllNumbers +
+                    " sumAllNumbersIsSimple =  " + sumAllNumbersIsSimple + " sumCountNumbersIsSimple = " + sumCountNumbersIsSimple);
         }
        System.out.println(" sumAllNumbers = " + sumAllNumbers + " sumAllNumbersIsSimple =  "
                 + sumAllNumbersIsSimple + " sumCountNumbersIsSimple = " + sumCountNumbersIsSimple);
