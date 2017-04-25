@@ -6,7 +6,7 @@ import java.util.List;
 public class TwoHundredRandomDigitsSumCountDigits {
     public static void main(String args[]) {
         int sumIndex = 0;
-        List<Integer> myList = populateList(10, 10);
+        List<Integer> myList = populateList(200, 100);
         for (int i = 0; i < myList.size(); i++) {
             if (i % 2 == 0) {
                 sumIndex = i + myList.get(i);
