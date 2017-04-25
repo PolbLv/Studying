@@ -6,20 +6,15 @@ import java.util.List;
 public class TwoHundredRandomDigitsSumCountDigits {
     public static void main(String args[]) {
         int sumIndex = 0;
-        int sumElement = 0;
-        List<Integer> myList = populateList(5, 5);
+        int sumElements = 0;
+        List<Integer> myList = populateList(200, 100);
         for (int i = 0; i < myList.size(); i++) {
-
             if (i % 2 == 0) {
                 sumIndex = sumIndex + i;
+                System.out.println(" index = " + i + " sumIndex = " + sumIndex + " el = " + myList.get(i) /*+  " Sum Element = " + sumElement*/);
             }
-
-              //  sumElement = getSumОfDigitsOfNumber(getDigitsOfNumber(myList.get(i)));
-                System.out.println("Sum Index = " + sumIndex + " index = " + i + " el = " + myList.get(i) /*+  " Sum Element = " + sumElement*/);
-            }
-          //  System.out.println("Sum Index = " + sumIndex + " index = " + i + " el = " + myList.get(i) +  " Sum Element = " + sumElement);
         }
-
+    }
 
     public static List<Integer> populateList(int size, int limit) {
         List<Integer> random = new ArrayList<>();
@@ -28,7 +23,7 @@ public class TwoHundredRandomDigitsSumCountDigits {
 
             random.add((int) (Math.random() * (limit + 1)));
         }
-       System.out.println(random);
+        System.out.println(random);
         return random;
     }
 

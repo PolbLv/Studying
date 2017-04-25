@@ -16,10 +16,10 @@ public class HundredRandomDigitsSumAllDigitsSumAllIsSimpleDigitsSumAllCountDigit
             }
             if (myList.get(i) % 2 == 0 && isSimple(i)) {
                 sumCountNumbersIsSimple = sumCountNumbersIsSimple + myList.get(i);
-                System.out.println(myList + "  " +  myList.get(i));
+           //     System.out.println(myList + "  " +  myList.get(i));
             }
-           System.out.println(" i = " + i + " el = " + myList.get(i) + " sumAllNumbers = " + sumAllNumbers +
-                    " sumAllNumbersIsSimple =  " + sumAllNumbersIsSimple + " sumCountNumbersIsSimple = " + sumCountNumbersIsSimple);
+         //  System.out.println(" i = " + i + " el = " + myList.get(i) + " sumAllNumbers = " + sumAllNumbers +
+                   // " sumAllNumbersIsSimple =  " + sumAllNumbersIsSimple + " sumCountNumbersIsSimple = " + sumCountNumbersIsSimple);
         }
        System.out.println(" sumAllNumbers = " + sumAllNumbers + " sumAllNumbersIsSimple =  "
                 + sumAllNumbersIsSimple + " sumCountNumbersIsSimple = " + sumCountNumbersIsSimple);
