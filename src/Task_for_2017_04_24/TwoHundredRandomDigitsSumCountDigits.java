@@ -6,12 +6,11 @@ import java.util.List;
 public class TwoHundredRandomDigitsSumCountDigits {
     public static void main(String args[]) {
         int sumIndex = 0;
-        int sumElements = 0;
-        List<Integer> myList = populateList(200, 100);
+        List<Integer> myList = populateList(10, 10);
         for (int i = 0; i < myList.size(); i++) {
             if (i % 2 == 0) {
-                sumIndex = sumIndex + i;
-                System.out.println(" index = " + i + " sumIndex = " + sumIndex + " el = " + myList.get(i) /*+  " Sum Element = " + sumElement*/);
+                sumIndex = i + myList.get(i);
+                System.out.println(" el = " + myList.get(i) + " index = " + i + " sumIndex = " + sumIndex);
             }
         }
     }
@@ -36,15 +35,6 @@ public class TwoHundredRandomDigitsSumCountDigits {
         return digits;
     }
 
-    public static int getSumОfDigitsOfNumber(ArrayList<Integer> digits) {
-        int sum = 0;
-
-        for (int i = 0; i < digits.size(); i++) {
-            sum += digits.get(i);
-        }
-        return sum;
-    }
 }
-
 /*    Создать список из 200 случайных чисел (от 0 до 100) -
         для четных индексов вывести сумму индекса и соответствующего элемента из списка.*/
