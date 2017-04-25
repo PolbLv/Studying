@@ -10,7 +10,7 @@ public class TwoHundredRandomDigitsSumCountDigits {
         for (int i = 0; i < myList.size(); i++) {
             if (i % 2 == 0) {
                 sumIndex = i + myList.get(i);
-                System.out.println(" el = " + myList.get(i) + " index = " + i + " sumIndex = " + sumIndex);
+                System.out.println(" sumIndex = " + sumIndex /*+ " el = " + myList.get(i) + " index = " + i */ );
             }
         }
     }
