@@ -5,14 +5,16 @@ import java.util.List;
 
 public class NumbersTenToHundredMeasuresToItself {
     public static void main(String args[]) {
-        int n = 0;
-        List<Integer> myList = getDigitsOfNumber(100);
+
+        List<Integer> myList = populateList(100, 20);
         for (int i = 0; i < myList.size(); i++) {
-           // if (method(n) == myList.size()) {
+         //   if (method(myList.get(i))){
                 System.out.println();
+            }
+
+
 
             }
-        }
     //}
 
     public static String method(int n) {
@@ -26,13 +28,15 @@ public class NumbersTenToHundredMeasuresToItself {
         return res;
     }
 
-    public static ArrayList<Integer> getDigitsOfNumber(int num) {
-        ArrayList<Integer> digits = new ArrayList<>();
-        while (num > 0) {
-            digits.add(0, num % 10);
-            num /= 10;
+    public static List<Integer> populateList(int size, int limit) {
+        List<Integer> random = new ArrayList<>();
+
+        for (int i = 0; i < size; i++) {
+
+            random.add((int) (Math.random() * (limit + 1)));
         }
-        return digits;
+        System.out.println(random);
+        return random;
     }
 }
 

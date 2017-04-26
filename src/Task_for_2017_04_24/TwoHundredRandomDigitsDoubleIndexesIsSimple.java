@@ -10,8 +10,8 @@ public class TwoHundredRandomDigitsDoubleIndexesIsSimple {
         List<Integer> myList = populateList(200, 100);
         for (int i = 0; i < myList.size(); i++) {
             sqrt = (int) Math.sqrt(myList.get(i));
-             if (isSimple(sqrt) && sqrt * sqrt == myList.get(i)) {
-                 System.out.println("Index = " +  i );
+             if (isSimple(sqrt)) {
+                 System.out.println("Index = " +  i + " " + sqrt + " el = " + myList.get(i));
             }
         }
     }
