@@ -5,6 +5,7 @@ package Old;
  */
 public class ZeroToThousandIfDigitEqualFiveAndThree {
     public static void main(String args[]) {
+
         zeroToThousand(10000);
     }
 
