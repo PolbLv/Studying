@@ -3,9 +3,7 @@ package Tasks_for_2017_04_19;
 import java.util.ArrayList;
 import java.util.Random;
 
-/**
- * Created by LVIVSOFT\spolyakov on 19.04.17.
- */
+
 public class HundredRandomDigitsWhereFivePresentedAndFoldSix {
     public static void main(String args[]) {
         randomDigits(100);
