@@ -6,15 +6,18 @@ import java.util.List;
 
 public class TwoHundredRandomDigitsDoubleIndexesIsSimple {
     public static void main(String args[]) {
-        int sqrt = 0;
+        double sqrt = 0;
         List<Integer> myList = populateList(200, 100);
         for (int i = 0; i < myList.size(); i++) {
-            sqrt = (int) Math.sqrt(myList.get(i));
-             if (isSimple(sqrt)) {
-                 System.out.println("Index = " +  i + " " + sqrt + " el = " + myList.get(i));
+            sqrt = Math.sqrt(myList.get(i)) ;
+            if (sqrt  % 1 == 0)
+                    if (isSimple((int)sqrt)) {
+                        System.out.println("Index = " + i + " " + sqrt + " el = " + myList.get(i));
+
+                }
             }
         }
-    }
+
 
     public static List<Integer> populateList(int size, int limit) {
         List<Integer> random = new ArrayList<>();
@@ -23,7 +26,7 @@ public class TwoHundredRandomDigitsDoubleIndexesIsSimple {
 
             random.add((int) (Math.random() * (limit + 1)));
         }
-         System.out.println(random);
+        System.out.println(random);
         return random;
     }
 
