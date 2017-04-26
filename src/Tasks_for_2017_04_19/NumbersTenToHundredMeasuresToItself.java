@@ -10,9 +10,9 @@ public class NumbersTenToHundredMeasuresToItself {
 
     public static String method(int n) {
         String res = " ";
-        for (int i = 1; i <= n; i++) {
+        for (int i = 1; i < n; i++) {
             if (0 == (n % i)) {
-                res += i + " , ";
+                res += i + ", ";
             }
         }
         return res;
