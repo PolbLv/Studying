@@ -13,7 +13,6 @@ public class TwoHundredRandomDigitsDoubleIndexesIsSimple {
             if (sqrt  % 1 == 0)
                     if (isSimple((int)sqrt)) {
                         System.out.println("Index = " + i + " " + sqrt + " el = " + myList.get(i));
-
                 }
             }
         }
