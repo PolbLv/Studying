@@ -4,7 +4,7 @@ public class NumbersTenToHundredMeasuresToItself {
     public static void main(String args[]) {
 
         for (int i = 10; i < 100; i++) {
-                System.out.println( i + " -" + method(i));
+            System.out.println( i + " -" + method(i));
         }
     }
 
