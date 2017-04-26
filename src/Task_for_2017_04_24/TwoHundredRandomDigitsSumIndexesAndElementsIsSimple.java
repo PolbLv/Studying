@@ -23,7 +23,7 @@ public class TwoHundredRandomDigitsSumIndexesAndElementsIsSimple {
 
             random.add((int) (Math.random() * (limit + 1)));
         }
-        System.out.println(random);
+        //System.out.println(random);
         return random;
     }
 
