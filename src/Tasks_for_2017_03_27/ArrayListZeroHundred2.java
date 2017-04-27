@@ -12,7 +12,7 @@ public class ArrayListZeroHundred2 {
     }
 
     public static void myMethod() {
-        int initialSize = 100;
+        int initialSize = 1000;
         ArrayList<Integer> numbers = new ArrayList<>(initialSize);
         for (int i = 0; i < initialSize; i++)
         {
