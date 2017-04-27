@@ -2,9 +2,6 @@ package Old;
 
 import java.util.ArrayList;
 
-/**
- * Created by Serhiy on 3/29/17.
- */
 public class Visibility {
     //declared variable, accessible from anywhere inside this class
     static int declaredField;

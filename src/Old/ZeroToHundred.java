@@ -1,8 +1,5 @@
 package Old;
 
-/**
- * Created by Serhiy on 2/25/17.
- */
 public class ZeroToHundred {
     public static void main(String args[]) {
         sumXToY(-100);

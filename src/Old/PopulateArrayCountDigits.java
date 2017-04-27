@@ -1,8 +1,5 @@
 package Old;
 
-/**
- * Created by LVIVSOFT\spolyakov on 22.03.17.
- */
 public class PopulateArrayCountDigits {
     public static void main(String[] args) {
         int[] array = populateArray(10, 500);

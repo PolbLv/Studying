@@ -1,8 +1,6 @@
 package Old;
 
-/**
- * Created by Serhiy on 2/18/17.
- */
+
 public class Sin {
     public static void main(String args[]) {
         System.out.println("sinString " + sinString(3, 4, 6, " Hello "));

@@ -3,9 +3,6 @@ package Task_for_2017_4_6;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by LVIVSOFT\spolyakov on 11.04.17.
- */
 public class FourDigitNumbersGetDigitAllsOfNumbers {
     public static void main(String args[]) {
         //int counter = 0;

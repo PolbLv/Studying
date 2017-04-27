@@ -1,8 +1,5 @@
 package Old;
 
-/**
- * Created by Serhiy on 3/16/17.
- */
 public class TwentyFiveDigits {
     public static void main(String args[]) {
 

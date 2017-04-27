@@ -1,8 +1,5 @@
 package Old;
 
-/**
- * Created by Serhiy on 3/15/17.
- */
 public class ZeroToHundredWithoutLastBoard {
     public static void main(String args[]) {
         zeroToHundred(100);

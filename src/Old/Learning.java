@@ -1,8 +1,6 @@
 package Old;
 
-/**
- * Created by LVIVSOFT\spolyakov on 31.03.17.
- */
+
 public class Learning {
     public static void main(String args[]) {
         // Пример 1

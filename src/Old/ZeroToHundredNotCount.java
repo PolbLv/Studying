@@ -1,8 +1,5 @@
 package Old;
 
-/**
- * Created by Serhiy on 2/22/17.
- */
 public class ZeroToHundredNotCount {
     public static void main(String args[]) {
 

@@ -1,8 +1,6 @@
 package Old;
 
-/**
- * Created by Serhiy on 3/20/17.
- */
+
 public class RandomDigitsPopulateArray {
     public static void main(String args[]) {
         populateArray(10, 55);

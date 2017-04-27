@@ -1,9 +1,7 @@
 package Old;
 
-/**
- * Created by LVIVSOFT\spolyakov on 27.03.17.
- */
-public class SipmleHundredDigits {
+
+public class SimpleHundredDigits {
     public static void main(String args[]) {
         printSimpleDigitsToHundred(1000);
 

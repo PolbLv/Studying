@@ -1,9 +1,7 @@
 package Old;
 
-/**
- * Created by LVIVSOFT\spolyakov on 24.03.17.
- */
-public class PopulateArraysimpledigits {
+
+public class PopulateArraySimpleDigits {
     public static void main(String arg[]) {
 
         int[] array = populateArray(40, 500);

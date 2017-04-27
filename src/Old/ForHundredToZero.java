@@ -1,8 +1,6 @@
 package Old;
 
-/**
- * Created by Serhiy on 3/17/17.
- */
+
 public class ForHundredToZero {
     public static void main(String args[]) {
 

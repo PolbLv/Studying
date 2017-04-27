@@ -1,8 +1,5 @@
 package Old;
 
-/**
- * Created by Serhiy on 2/27/17.
- */
 public class ZeroToThousandIfDigitEqualFiveAndThree {
     public static void main(String args[]) {
 
@@ -20,7 +17,6 @@ public class ZeroToThousandIfDigitEqualFiveAndThree {
         System.out.println("counter = " + counter);
     }
 }
-
 
 /*2. Подсчитать количество чисел в последовательности от 0 до 10000 выполняющих условие - число четное
 и кратно 5 и 3 одновременно результат:

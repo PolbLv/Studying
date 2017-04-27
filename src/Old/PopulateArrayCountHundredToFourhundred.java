@@ -1,8 +1,5 @@
 package Old;
 
-/**
- * Created by LVIVSOFT\spolyakov on 24.03.17.
- */
 public class PopulateArrayCountHundredToFourhundred {
     public static void main(String args[]) {
 

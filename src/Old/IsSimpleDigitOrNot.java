@@ -1,8 +1,6 @@
 package Old;
 
-/**
- * Created by Serhiy on 3/9/17.
- */
+
 public class IsSimpleDigitOrNot {
     public static void main(String arg[]) {
 

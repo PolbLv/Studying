@@ -5,14 +5,14 @@ public class Car {
     //Fields
     private String color;
 
-    private String make;
+    private String brand;
 
     private String model;
 
     // Constructor
-    public Car(String color, String make, String model){
+    public Car(String color, String brand, String model){
         this.color = color;
-        this.make = make;
+        this.brand = brand;
         this.model=model;
     }
     //Method

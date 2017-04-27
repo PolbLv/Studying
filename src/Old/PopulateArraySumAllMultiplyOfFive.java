@@ -1,9 +1,7 @@
 package Old;
 
-/**
- * Created by LVIVSOFT\spolyakov on 27.03.17.
- */
-public class PopulateArraySumAllMultipleofFive {
+
+public class PopulateArraySumAllMultiplyOfFive {
     public static void main(String args[]) {
 
         int[] array = populateArray(10, 500);
@@ -29,7 +27,6 @@ public class PopulateArraySumAllMultipleofFive {
         System.out.println(sum);
     }
 }
-
 
 /*Используя метод populateArray создать массив чисел от 0 до 500,
 вывести на экран сумму всех элементов массива которые кратны пяти*/

@@ -1,8 +1,6 @@
 package Old;
 
-/**
- * Created by Serhiy on 2/20/17.
- */
+
 public class VariantsZeroToX {
     public static void main(String args[]) {
 

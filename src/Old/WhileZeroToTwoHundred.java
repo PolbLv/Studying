@@ -1,8 +1,5 @@
 package Old;
 
-/**
- * Created by Serhiy on 3/15/17.
- */
 public class WhileZeroToTwoHundred {
     public static void main(String args[]) {
         zeroToTwoHundred(200);

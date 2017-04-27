@@ -1,8 +1,6 @@
 package Old;
 
-/**
- * Created by Serhiy on 3/16/17.
- */
+
 public class NotCountDigtsZeroToTwoHundred {
     public static void main(String args[]) {
 

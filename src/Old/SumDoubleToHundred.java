@@ -1,8 +1,6 @@
 package Old;
 
-/**
- * Created by Serhiy on 2/27/17.
- */
+
 public class SumDoubleToHundred {
     public static void main(String args[]) {
         sumDoubleToHundred(100);

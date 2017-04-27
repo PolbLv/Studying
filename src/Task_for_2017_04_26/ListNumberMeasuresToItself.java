@@ -14,9 +14,10 @@ public class ListNumberMeasuresToItself {
 
     public static ArrayList<Integer> getDenominatorsOf(int number) {
         ArrayList<Integer> digits = new ArrayList<>();
+
        // for (int i = 0; i < digits.size(); i++) {
          //   digits.add(i++);
-             System.out.println(number);
+             System.out.println(method(number));
         //}
         return digits;
     }
