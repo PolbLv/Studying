@@ -10,7 +10,6 @@ public class ListNumberMeasuresToItself {
         System.out.println(digits);
     }
 
-
     public static ArrayList<Integer> getDenominatorsOf(int number) {
         ArrayList<Integer> digits = new ArrayList<>();
 
