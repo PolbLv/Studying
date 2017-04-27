@@ -1,37 +1,30 @@
 package Task_for_2017_04_26;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class ListNumberMeasuresToItself {
     public static void main(String args[]) {
-        getDenominatorsOf(30);
-        //for (int i = 0; i < myList.size(); i++) {
 
-                //System.out.println(myList);
-        }
-    //}
+        List<Integer> digits = getDenominatorsOf(30);
+        System.out.println(digits);
+    }
 
 
     public static ArrayList<Integer> getDenominatorsOf(int number) {
         ArrayList<Integer> digits = new ArrayList<>();
 
-       // for (int i = 0; i < digits.size(); i++) {
-         //   digits.add(i++);
-             System.out.println(method(number));
-        //}
-        return digits;
-    }
-
-    public static String method(int n) {
-        String res = " ";
-        for (int i = 1; i < n; i++) {
-            if (0 == (n % i)) {
-                res += i + " ";
+        for (int i = 1; i < number; i++) {
+            if (0 == (number % i)) {
+                digits.add(i);
             }
         }
-        return res;
+        return digits;
     }
 }
+
+
+
 /*1. Создать метод наполняющий список делителями числа на входе, сигнатура должна быть такой
 List<Integer> getDenominatorsOf(int number)
 
