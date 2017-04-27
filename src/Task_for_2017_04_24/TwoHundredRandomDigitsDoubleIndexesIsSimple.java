@@ -9,14 +9,15 @@ public class TwoHundredRandomDigitsDoubleIndexesIsSimple {
         double sqrt = 0;
         List<Integer> myList = populateList(200, 100);
         for (int i = 0; i < myList.size(); i++) {
-            sqrt = Math.sqrt(myList.get(i)) ;
-            if (sqrt  % 1 == 0)
-                    if (isSimple((int)sqrt)) {
-                        System.out.println("Index = " + i + " " + sqrt + " el = " + myList.get(i));
+            sqrt = Math.sqrt(myList.get(i));
+            if (sqrt % 1 == 0) {
+                if (isSimple((int) sqrt)) {
+                    System.out.println("Index = " + i + " " + sqrt + " el = " + myList.get(i));
                 }
+
             }
         }
-
+    }
 
     public static List<Integer> populateList(int size, int limit) {
         List<Integer> random = new ArrayList<>();

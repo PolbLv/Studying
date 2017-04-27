@@ -10,7 +10,6 @@ public class ThreeDigitNumbersSumFirstAndSecondDigitsEvenNumber {
             sum = getDigitsOfNumber(i).get(0) + getDigitsOfNumber(i).get(2);
             if (sum % 2 == 0) {
                 System.out.println("i = " + i + " sum = " + sum);
-
             }
         }
     }
@@ -23,6 +22,5 @@ public class ThreeDigitNumbersSumFirstAndSecondDigitsEvenNumber {
         }
         return digits;
     }
-
 }
 //Вывести все трехзначные числа у которых сумма первой и третьей цифры четное число.

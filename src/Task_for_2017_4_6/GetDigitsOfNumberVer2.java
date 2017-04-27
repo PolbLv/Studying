@@ -14,7 +14,6 @@ public class GetDigitsOfNumberVer2 {
         System.out.println(digits);
     }
 
-
     public static ArrayList<Integer> getDigitsOfNumber(int num) {
         ArrayList<Integer> digits = new ArrayList<>();
         while (num > 0) {

@@ -23,17 +23,18 @@ public class ZeroToHundredSimpleWay {
             System.out.println("minusHundredToZero " + i);
         }
     }
-    public static void evenZeroToHundred(int x){
-        for (int i= 0; i <= x; i++){
-            if (i % 2 == 0){
+
+    public static void evenZeroToHundred(int x) {
+        for (int i = 0; i <= x; i++) {
+            if (i % 2 == 0) {
                 System.out.println("evenZeroToHundred " + i);
             }
         }
-
     }
-    public static void minusOddHundredToZero(int x){
-        for (int i = -100; i <= x; i++){
-            if (i % 2 != 0){
+
+    public static void minusOddHundredToZero(int x) {
+        for (int i = -100; i <= x; i++) {
+            if (i % 2 != 0) {
                 System.out.println("minusOddHundredToZero " + i);
             }
         }

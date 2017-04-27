@@ -22,7 +22,7 @@ public class MinusFiveHundredToThreeHundred {
         int counter = 0;
         while (counter < y) {
             if (simple(x)) {
-                System.out.println("i simple = " + x);
+                System.out.println("i IsSimple = " + x);
                 counter++;
             }
             x++;

@@ -9,7 +9,6 @@ public class EveryNumberOnDisplay {
         numberOnDisplay(4567);
     }
 
-
     public static void numberOnDisplay(int x) {
         int i = 0;
         for (; x < 10; i++) {

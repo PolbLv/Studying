@@ -12,7 +12,6 @@ public class GetDigitsOfNumberVer1 {
         System.out.println(myList);
     }
 
-
     public static ArrayList<Integer> getDigitsOfNumber(int number) {
         ArrayList<Integer> myList = new ArrayList<>();
         StringBuffer digits = new StringBuffer(String.valueOf(number));
@@ -23,9 +22,6 @@ public class GetDigitsOfNumberVer1 {
         return myList;
     }
 }
-
-
-
 /*1. Создать метод разбивающий число на цифры, на выходе должен быть список чисел.
 Сигнатура метода: public static ArrayList<Integer> getDigitsOfNumber(int number)
 Выходной список должен содержать цифры идущие в том же самом порядке, что и в числе

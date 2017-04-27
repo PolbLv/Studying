@@ -34,8 +34,6 @@ public class GetDigitsFromNumber {
         return myList;
     }
 }
-
-
 /*1. Создать метод разбивающий число на цифры, на выходе должен быть список чисел.
 Сигнатура метода: public static ArrayList<Integer> getDigitsOfNumber(int number)
 Выходной список должен содержать цифры идущие в том же самом порядке, что и в числе

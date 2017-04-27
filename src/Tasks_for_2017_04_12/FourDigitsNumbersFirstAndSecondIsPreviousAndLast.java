@@ -23,7 +23,5 @@ public class FourDigitsNumbersFirstAndSecondIsPreviousAndLast {
         return digits;
     }
 }
-
-
  /*   Вывести все четырехзначные числа у которых
     первые две цифры равны последним двум цифрам , например числа как 1212, 7373,9595, 1111,9090*/

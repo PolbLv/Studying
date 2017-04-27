@@ -23,11 +23,8 @@ public class DigitLargerThenPrevious {
         for ( int i = 0 ; i < 13; i++) {
             myList.add((int) (Math.random() * ( 500 + 1)));
         }
-
         return myList;
     }
-
-
 }
 /*Используя метод populateList создать список случайных чисел от 0 до 500,
 вывести на экран количество четных чисел в списке*/

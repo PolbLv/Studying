@@ -8,8 +8,6 @@ public class MathSqrtEqualFive {
 
         minusFiveHundredToThreeHundred(-500, 300);
         thirtyToSeventy(30, 70);
-
-
     }
 
     public static void minusFiveHundredToThreeHundred(int min, int max) {
