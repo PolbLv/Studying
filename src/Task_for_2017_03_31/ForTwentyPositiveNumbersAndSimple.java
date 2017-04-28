@@ -1,8 +1,5 @@
 package Task_for_2017_03_31;
 
-/**
- * Created by LVIVSOFT\spolyakov on 04.04.17.
- */
 public class ForTwentyPositiveNumbersAndSimple {
     public static void main(String args[]) {
         twentyNumbers();
