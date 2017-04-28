@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5da2dff7-c26b-41b4-900e-71080a12f764" name="Default" comment="" />
+    <list default="true" id="5da2dff7-c26b-41b4-900e-71080a12f764" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Task_for_2017_04_26/TenToHundredSumMeasures.java" afterPath="$PROJECT_DIR$/src/Task_for_2017_04_26/TenToHundredSumMeasures.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -112,11 +115,11 @@
       <file leaf-file-name="TenToHundredSumMeasures.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Task_for_2017_04_26/TenToHundredSumMeasures.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+            <state relative-caret-position="126">
+              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
               <folding>
                 <element signature="e#141#142#0" expanded="true" />
-                <element signature="e#173#174#0" expanded="true" />
+                <element signature="e#174#175#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -842,13 +845,6 @@
       <option name="presentableId" value="Default" />
       <updated>1487449099578</updated>
     </task>
-    <task id="LOCAL-00070" summary="Update">
-      <created>1492089215093</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1492089215093</updated>
-    </task>
     <task id="LOCAL-00071" summary="Update">
       <created>1492089414814</created>
       <option name="number" value="00071" />
@@ -1185,7 +1181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1493381200337</updated>
     </task>
-    <option name="localTasksCounter" value="119" />
+    <task id="LOCAL-00119" summary="Update">
+      <created>1493381209091</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1493381209091</updated>
+    </task>
+    <option name="localTasksCounter" value="120" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1267,7 +1270,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="49" />
+      <option name="time" value="50" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1655,11 +1658,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Task_for_2017_04_26/TenToHundredSumMeasures.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        <state relative-caret-position="126">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
           <folding>
             <element signature="e#141#142#0" expanded="true" />
-            <element signature="e#173#174#0" expanded="true" />
+            <element signature="e#174#175#0" expanded="true" />
           </folding>
         </state>
       </provider>
