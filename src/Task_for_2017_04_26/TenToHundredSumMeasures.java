@@ -6,6 +6,7 @@ public class TenToHundredSumMeasures {
     public static void main(String args[]) {
         myMethod(10, 100);
     }
+
     public static void myMethod(int x, int y) {
 
         ArrayList<Integer> digits;
@@ -13,10 +14,10 @@ public class TenToHundredSumMeasures {
         for (int i = x; i < y; i++) {
             digits = getDenominatorsOf(i);
             sum = 0;
-            for (int j = 0; j< digits.size(); j++){
+            for (int j = 0; j < digits.size(); j++) {
                 sum = sum + digits.get(j);
             }
-            System.out.println(" sum = " + sum +  "  digits  = " + digits + " Number = " + i );
+            System.out.println(" sum = " + sum + "  digits  = " + digits + " Number = " + i);
         }
     }
 
