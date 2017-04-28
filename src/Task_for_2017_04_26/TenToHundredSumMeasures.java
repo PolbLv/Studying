@@ -16,7 +16,7 @@ public class TenToHundredSumMeasures {
             for (int j = 0; j< digits.size(); j++){
                 sum = sum + digits.get(j);
             }
-            System.out.println("i = " + i + " result = " + sum + "digits = " + digits );
+            System.out.println(" sum = " + sum +  "  digits  = " + digits + " Number = " + i );
         }
     }
 
