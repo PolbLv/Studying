@@ -43,7 +43,5 @@ public class FiftyDigitsWithMaxMeasuresVarOne {
         return digits;
     }
 }
-
-
 /*Вывести на экран 50 чисел из интервала 100-1000
     у которых наибольшее количество делителей.*/
