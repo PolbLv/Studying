@@ -29,7 +29,6 @@ public class FiftyDigitsWithMaxMeasuresVarOne {
         for(int i = 0; i < 50; i++ ){
             System.out.println(myList.get(i).get(0));
         }
-
         System.out.println( "  = " + myList);
     }
 
