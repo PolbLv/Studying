@@ -24,7 +24,6 @@ public class FourDigitsSumFirstAndSecondEquallyThirdAndFourth {
         }
         return digits;
     }
-
 }
 
 /*Вывести все 4 значные числа для которых сумма первых двух цифр равна сумме последних двух цифр:

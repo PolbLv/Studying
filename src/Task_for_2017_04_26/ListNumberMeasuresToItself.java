@@ -6,7 +6,7 @@ import java.util.List;
 public class ListNumberMeasuresToItself {
     public static void main(String args[]) {
 
-        List<Integer> digits = getDenominatorsOf(30);
+        List<Integer> digits = getDenominatorsOf(10);
         System.out.println(digits);
     }
 
