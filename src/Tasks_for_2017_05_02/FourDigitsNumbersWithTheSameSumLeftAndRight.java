@@ -5,17 +5,12 @@ import java.util.ArrayList;
 
 public class FourDigitsNumbersWithTheSameSumLeftAndRight {
     public static void main(String args[]) {
-        int left;
-        int right;
-        ArrayList<Integer> temp;
-        ArrayList<Integer> divLeft;
-        ArrayList<Integer> divRight;
-        int sum1;
-        int sum2;
+        int left, right;
+        ArrayList<Integer> divLeft, divRight;
+        int sum1, sum2;
         for (int i = 1000; i < 10000; i++) {
-            temp = getDigitsOfNumber(i);
-            left = temp.get(0) * 10 + temp.get(1);
-            right = temp.get(2) * 10 + temp.get(3);
+            left = getDigitsOfNumber(i).get(0) * 10 + getDigitsOfNumber(i).get(1);
+            right = getDigitsOfNumber(i).get(2) * 10 + getDigitsOfNumber(i).get(3);
             divLeft = getDenominatorsOf(left);
             divRight = getDenominatorsOf(right);
             sum1 = 0;
